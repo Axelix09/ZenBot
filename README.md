@@ -15,7 +15,7 @@
 [![Node](https://img.shields.io/badge/Node.js-v18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](.)
 [![ESM](https://img.shields.io/badge/módulos-ESM-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)](.)
 [![MongoDB](https://img.shields.io/badge/base%20de%20datos-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](.)
-[![License](https://img.shields.io/badge/licencia-MIT-22c55e?style=for-the-badge)](.)
+[![License](https://img.shields.io/badge/licencia-GPLv3-22c55e?style=for-the-badge)](.)
 
 </div>
 
