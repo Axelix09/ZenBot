@@ -256,8 +256,6 @@ ZenBot soporta hasta **40 sub-bots** simultáneos. Cada sub-bot puede configurar
 - **[fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg)** — Procesamiento de audio y video
 - **[jimp](https://github.com/jimp-dev/jimp)** — Procesamiento de imágenes
 - **[chalk](https://github.com/chalk/chalk)** — Logs con color en consola
-- **[@axel-dev09/zen-dl](https://www.npmjs.com/package/@axel-dev09/zen-dl)** — Módulo propio de scrapers y descargas
-
 ---
 
 ## Contacto
