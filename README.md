@@ -5,7 +5,7 @@
 **Bot de WhatsApp multifuncional**
 **Created by: [AxelDev09](https://github.com/AxelDev09)**
 
-[![Version](https://img.shields.io/badge/versión-7.0.0-blueviolet?style=for-the-badge&logo=whatsapp&logoColor=white)](.)
+[![Version](https://img.shields.io/badge/versión-8.0.0-blueviolet?style=for-the-badge&logo=whatsapp&logoColor=white)](.)
 [![Node](https://img.shields.io/badge/Node.js-v18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](.)
 [![ESM](https://img.shields.io/badge/módulos-ESM-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)](.)
 [![MongoDB](https://img.shields.io/badge/base%20de%20datos-MongoDB%20%7C%20JSON-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](.)
