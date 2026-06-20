@@ -224,8 +224,6 @@ ZenBot soporta hasta **40 sub-bots** simultáneos. Cada sub-bot puede configurar
 
 <div align="center">
 
-Desarrollado con 🔥 por **AxelDev09**
-
 [![GitHub](https://img.shields.io/badge/GitHub-Axelix09-181717?style=for-the-badge&logo=github)](https://github.com/Axelix09)
 [![Instagram](https://img.shields.io/badge/Instagram-@axeldev09-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/axeldev09)
 [![WhatsApp Channel](https://img.shields.io/badge/Canal-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb6OR9O2v1IvoXO5oT2c)
