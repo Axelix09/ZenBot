@@ -31,20 +31,9 @@
 - **ffmpeg** instalado en el sistema
 - Cuenta de WhatsApp activa
 
-### Pasos
+### QUÉ DEBO HACER?
 
-**1. Clonar el repositorio**
-```bash
-git clone https://github.com/AxelDev09/zenbot.git
-cd zenbot
-```
-
-**2. Instalar dependencias**
-```bash
-npm install
-```
-
-**3. Configurar variables de entorno**
+**1. Configurar variables de entorno**
 
 Crear un archivo `.env` en la raíz del proyecto:
 ```env
@@ -54,7 +43,7 @@ NODE_ENV=production
 
 > 💡 `MONGODB_URI` es **opcional**. Si no la definís (o la conexión falla), el bot arranca igual usando **almacenamiento JSON local** como respaldo automático. Ver [Base de datos](#base-de-datos).
 
-**4. Editar la configuración**
+**2. Editar la configuración**
 
 Abrir `config.js` y personalizar:
 ```js
@@ -63,7 +52,7 @@ botName: 'ZΞN-BOT',
 MODE: 'public',                   // 'public' o 'private'
 ```
 
-**5. Iniciar el bot**
+**3. Iniciar el bot**
 ```bash
 npm start
 ```
