@@ -72,7 +72,7 @@ pkg install git nodejs yarn ffmpeg -y
 
 ---
 
-### 2 — Configurar acceso al almacenamiento (Específico de Termux)
+### 2 — Configurar acceso al almacenamiento
 
 > ⚠️ Paso obligatorio para poder trabajar en `/sdcard` desde Termux.
 
