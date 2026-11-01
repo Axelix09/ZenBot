@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Persistencia</title>
+  <ellipse cx="32" cy="15" rx="20" ry="8" fill="#1c2140" stroke="#b59cff" stroke-width="3"/>
+  <path d="M12 15v33c0 5 9 9 20 9s20-4 20-9V15" fill="#111b31" stroke="#b59cff" stroke-width="3"/>
+  <path d="M12 31c0 5 9 9 20 9s20-4 20-9M12 47c0 5 9 9 20 9s20-4 20-9" fill="none" stroke="#72ecd4" stroke-width="3"/>
+</svg>

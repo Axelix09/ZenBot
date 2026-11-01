@@ -1,0 +1,2862 @@
+{
+  "rarityOrder": [
+    "basico",
+    "comun",
+    "poco_comun",
+    "raro",
+    "mistico",
+    "legendario"
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Venado cola blanca",
+      "scientificName": "Odocoileus virginianus",
+      "rarity": "comun",
+      "weightKg": [
+        40,
+        90
+      ],
+      "habitat": "Bosques templados y matorrales",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 37,
+        "attack": 9,
+        "defense": 6,
+        "speed": 46
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Odocoileus_virginianus"
+    },
+    {
+      "id": 2,
+      "name": "Jabalí",
+      "scientificName": "Sus scrofa",
+      "rarity": "comun",
+      "weightKg": [
+        60,
+        130
+      ],
+      "habitat": "Bosques y matorrales densos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 45,
+        "attack": 12,
+        "defense": 8,
+        "speed": 35
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sus_scrofa"
+    },
+    {
+      "id": 3,
+      "name": "Pavo salvaje",
+      "scientificName": "Meleagris gallopavo",
+      "rarity": "comun",
+      "weightKg": [
+        4,
+        10
+      ],
+      "habitat": "Bosques abiertos y campos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 22,
+        "attack": 5,
+        "defense": 2,
+        "speed": 67
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Meleagris_gallopavo"
+    },
+    {
+      "id": 4,
+      "name": "Conejo silvestre",
+      "scientificName": "Sylvilagus floridanus",
+      "rarity": "comun",
+      "weightKg": [
+        1,
+        2.5
+      ],
+      "habitat": "Praderas y bordes de bosque",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sylvilagus_floridanus"
+    },
+    {
+      "id": 5,
+      "name": "Corzo",
+      "scientificName": "Capreolus capreolus",
+      "rarity": "comun",
+      "weightKg": [
+        15,
+        30
+      ],
+      "habitat": "Bosques y campos abiertos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 26,
+        "attack": 6,
+        "defense": 3,
+        "speed": 62
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Capreolus_capreolus"
+    },
+    {
+      "id": 6,
+      "name": "Liebre europea",
+      "scientificName": "Lepus europaeus",
+      "rarity": "comun",
+      "weightKg": [
+        3,
+        5
+      ],
+      "habitat": "Campos abiertos y estepas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lepus_europaeus"
+    },
+    {
+      "id": 7,
+      "name": "Ánade azulón",
+      "scientificName": "Anas platyrhynchos",
+      "rarity": "comun",
+      "weightKg": [
+        0.9,
+        1.3
+      ],
+      "habitat": "Humedales, lagos y ríos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Anas_platyrhynchos"
+    },
+    {
+      "id": 8,
+      "name": "Ganso canadiense",
+      "scientificName": "Branta canadensis",
+      "rarity": "comun",
+      "weightKg": [
+        3,
+        6.5
+      ],
+      "habitat": "Lagos, praderas y humedales",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 68
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Branta_canadensis"
+    },
+    {
+      "id": 9,
+      "name": "Coyote",
+      "scientificName": "Canis latrans",
+      "rarity": "comun",
+      "weightKg": [
+        7,
+        21
+      ],
+      "habitat": "Praderas, desiertos y bosques",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 24,
+        "attack": 5,
+        "defense": 3,
+        "speed": 65
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Canis_latrans"
+    },
+    {
+      "id": 10,
+      "name": "Armiño",
+      "scientificName": "Mustela erminea",
+      "rarity": "basico",
+      "weightKg": [
+        0.1,
+        0.4
+      ],
+      "habitat": "Bosques, praderas y tundras",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Mustela_erminea"
+    },
+    {
+      "id": 11,
+      "name": "Ardilla roja",
+      "scientificName": "Sciurus vulgaris",
+      "rarity": "basico",
+      "weightKg": [
+        0.2,
+        0.4
+      ],
+      "habitat": "Bosques de coníferas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sciurus_vulgaris"
+    },
+    {
+      "id": 12,
+      "name": "Paloma bravía",
+      "scientificName": "Columba livia",
+      "rarity": "basico",
+      "weightKg": [
+        0.2,
+        0.4
+      ],
+      "habitat": "Acantilados y zonas urbanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Columba_livia"
+    },
+    {
+      "id": 13,
+      "name": "Perdiz pardilla",
+      "scientificName": "Perdix perdix",
+      "rarity": "basico",
+      "weightKg": [
+        0.3,
+        0.5
+      ],
+      "habitat": "Campos de cultivo y praderas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Perdix_perdix"
+    },
+    {
+      "id": 14,
+      "name": "Perdiz roja",
+      "scientificName": "Alectoris rufa",
+      "rarity": "basico",
+      "weightKg": [
+        0.4,
+        0.6
+      ],
+      "habitat": "Zonas mediterráneas y matorrales",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Alectoris_rufa"
+    },
+    {
+      "id": 15,
+      "name": "Mapache",
+      "scientificName": "Procyon lotor",
+      "rarity": "comun",
+      "weightKg": [
+        4,
+        9
+      ],
+      "habitat": "Bosques cercanos al agua",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 22,
+        "attack": 5,
+        "defense": 2,
+        "speed": 68
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Procyon_lotor"
+    },
+    {
+      "id": 16,
+      "name": "Ardilla gris",
+      "scientificName": "Sciurus carolinensis",
+      "rarity": "basico",
+      "weightKg": [
+        0.3,
+        0.7
+      ],
+      "habitat": "Bosques caducifolios",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sciurus_carolinensis"
+    },
+    {
+      "id": 17,
+      "name": "Paloma torcaz",
+      "scientificName": "Columba palumbus",
+      "rarity": "basico",
+      "weightKg": [
+        0.4,
+        0.6
+      ],
+      "habitat": "Bosques y campos de cultivo",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Columba_palumbus"
+    },
+    {
+      "id": 18,
+      "name": "Codorniz común",
+      "scientificName": "Coturnix coturnix",
+      "rarity": "basico",
+      "weightKg": [
+        0.07,
+        0.13
+      ],
+      "habitat": "Campos de cereal y praderas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Coturnix_coturnix"
+    },
+    {
+      "id": 19,
+      "name": "Zorro gris",
+      "scientificName": "Urocyon cinereoargenteus",
+      "rarity": "comun",
+      "weightKg": [
+        3,
+        6
+      ],
+      "habitat": "Bosques y matorrales de América",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 68
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Urocyon_cinereoargenteus"
+    },
+    {
+      "id": 20,
+      "name": "Puercoespín norteamericano",
+      "scientificName": "Erethizon dorsatum",
+      "rarity": "comun",
+      "weightKg": [
+        4,
+        9
+      ],
+      "habitat": "Bosques de coníferas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 22,
+        "attack": 5,
+        "defense": 2,
+        "speed": 68
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Erethizon_dorsatum"
+    },
+    {
+      "id": 21,
+      "name": "Zarigüeya común",
+      "scientificName": "Didelphis virginiana",
+      "rarity": "comun",
+      "weightKg": [
+        2,
+        5.5
+      ],
+      "habitat": "Bosques y zonas periurbanas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Didelphis_virginiana"
+    },
+    {
+      "id": 22,
+      "name": "Marmota común",
+      "scientificName": "Marmota monax",
+      "rarity": "comun",
+      "weightKg": [
+        2,
+        6.5
+      ],
+      "habitat": "Praderas y bordes de bosque",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 68
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Marmota_monax"
+    },
+    {
+      "id": 23,
+      "name": "Nutria de río",
+      "scientificName": "Lontra canadensis",
+      "rarity": "comun",
+      "weightKg": [
+        5,
+        14
+      ],
+      "habitat": "Ríos y lagos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 22,
+        "attack": 5,
+        "defense": 3,
+        "speed": 67
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lontra_canadensis"
+    },
+    {
+      "id": 24,
+      "name": "Rata almizclera",
+      "scientificName": "Ondatra zibethicus",
+      "rarity": "comun",
+      "weightKg": [
+        0.7,
+        1.8
+      ],
+      "habitat": "Humedales y pantanos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ondatra_zibethicus"
+    },
+    {
+      "id": 25,
+      "name": "Ardilla listada",
+      "scientificName": "Tamias striatus",
+      "rarity": "basico",
+      "weightKg": [
+        0.06,
+        0.14
+      ],
+      "habitat": "Bosques caducifolios",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tamias_striatus"
+    },
+    {
+      "id": 26,
+      "name": "Ganso nival",
+      "scientificName": "Anser caerulescens",
+      "rarity": "comun",
+      "weightKg": [
+        2,
+        4.5
+      ],
+      "habitat": "Tundra y humedales migratorios",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Anser_caerulescens"
+    },
+    {
+      "id": 27,
+      "name": "Cerceta aliazul",
+      "scientificName": "Spatula discors",
+      "rarity": "comun",
+      "weightKg": [
+        0.3,
+        0.5
+      ],
+      "habitat": "Humedales y lagunas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Spatula_discors"
+    },
+    {
+      "id": 28,
+      "name": "Focha común",
+      "scientificName": "Fulica atra",
+      "rarity": "comun",
+      "weightKg": [
+        0.6,
+        0.9
+      ],
+      "habitat": "Lagos y humedales",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Fulica_atra"
+    },
+    {
+      "id": 29,
+      "name": "Tórtola turca",
+      "scientificName": "Streptopelia decaocto",
+      "rarity": "basico",
+      "weightKg": [
+        0.1,
+        0.2
+      ],
+      "habitat": "Zonas urbanas y campos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Streptopelia_decaocto"
+    },
+    {
+      "id": 30,
+      "name": "Estornino pinto",
+      "scientificName": "Sturnus vulgaris",
+      "rarity": "basico",
+      "weightKg": [
+        0.06,
+        0.1
+      ],
+      "habitat": "Campos y zonas urbanas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sturnus_vulgaris"
+    },
+    {
+      "id": 31,
+      "name": "Urraca común",
+      "scientificName": "Pica pica",
+      "rarity": "comun",
+      "weightKg": [
+        0.2,
+        0.3
+      ],
+      "habitat": "Bosques abiertos y campos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pica_pica"
+    },
+    {
+      "id": 32,
+      "name": "Grajo",
+      "scientificName": "Corvus frugilegus",
+      "rarity": "comun",
+      "weightKg": [
+        0.3,
+        0.5
+      ],
+      "habitat": "Campos de cultivo",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Corvus_frugilegus"
+    },
+    {
+      "id": 33,
+      "name": "Cuervo común",
+      "scientificName": "Corvus corax",
+      "rarity": "comun",
+      "weightKg": [
+        0.7,
+        1.6
+      ],
+      "habitat": "Bosques, montañas y costas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Corvus_corax"
+    },
+    {
+      "id": 34,
+      "name": "Gaviota argéntea",
+      "scientificName": "Larus argentatus",
+      "rarity": "comun",
+      "weightKg": [
+        0.7,
+        1.5
+      ],
+      "habitat": "Costas y acantilados",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Larus_argentatus"
+    },
+    {
+      "id": 35,
+      "name": "Cormorán grande",
+      "scientificName": "Phalacrocorax carbo",
+      "rarity": "comun",
+      "weightKg": [
+        2,
+        3.5
+      ],
+      "habitat": "Costas, ríos y lagos",
+      "diet": "Piscívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Phalacrocorax_carbo"
+    },
+    {
+      "id": 36,
+      "name": "Comadreja",
+      "scientificName": "Mustela nivalis",
+      "rarity": "basico",
+      "weightKg": [
+        0.03,
+        0.1
+      ],
+      "habitat": "Praderas y setos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Mustela_nivalis"
+    },
+    {
+      "id": 37,
+      "name": "Hurón europeo",
+      "scientificName": "Mustela putorius",
+      "rarity": "comun",
+      "weightKg": [
+        0.6,
+        1.5
+      ],
+      "habitat": "Bosques y granjas",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Mustela_putorius"
+    },
+    {
+      "id": 38,
+      "name": "Erizo europeo",
+      "scientificName": "Erinaceus europaeus",
+      "rarity": "basico",
+      "weightKg": [
+        0.4,
+        1.2
+      ],
+      "habitat": "Jardines, setos y bosques",
+      "diet": "Insectívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Erinaceus_europaeus"
+    },
+    {
+      "id": 39,
+      "name": "Topo europeo",
+      "scientificName": "Talpa europaea",
+      "rarity": "basico",
+      "weightKg": [
+        0.07,
+        0.13
+      ],
+      "habitat": "Praderas y jardines",
+      "diet": "Insectívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Talpa_europaea"
+    },
+    {
+      "id": 40,
+      "name": "Rata parda",
+      "scientificName": "Rattus norvegicus",
+      "rarity": "comun",
+      "weightKg": [
+        0.2,
+        0.5
+      ],
+      "habitat": "Zonas urbanas y rurales",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rattus_norvegicus"
+    },
+    {
+      "id": 41,
+      "name": "Ratón de campo",
+      "scientificName": "Apodemus sylvaticus",
+      "rarity": "basico",
+      "weightKg": [
+        0.01,
+        0.03
+      ],
+      "habitat": "Campos y bosques",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Apodemus_sylvaticus"
+    },
+    {
+      "id": 42,
+      "name": "Faisán común",
+      "scientificName": "Phasianus colchicus",
+      "rarity": "comun",
+      "weightKg": [
+        0.8,
+        1.6
+      ],
+      "habitat": "Campos de cultivo y setos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Phasianus_colchicus"
+    },
+    {
+      "id": 43,
+      "name": "Pato friso",
+      "scientificName": "Mareca strepera",
+      "rarity": "comun",
+      "weightKg": [
+        0.6,
+        1.1
+      ],
+      "habitat": "Lagos y humedales",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Mareca_strepera"
+    },
+    {
+      "id": 44,
+      "name": "Cerceta común",
+      "scientificName": "Anas crecca",
+      "rarity": "basico",
+      "weightKg": [
+        0.2,
+        0.4
+      ],
+      "habitat": "Humedales y lagunas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Anas_crecca"
+    },
+    {
+      "id": 45,
+      "name": "Chocha perdiz",
+      "scientificName": "Scolopax rusticola",
+      "rarity": "comun",
+      "weightKg": [
+        0.2,
+        0.4
+      ],
+      "habitat": "Bosques húmedos",
+      "diet": "Insectívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Scolopax_rusticola"
+    },
+    {
+      "id": 46,
+      "name": "Zorzal común",
+      "scientificName": "Turdus philomelos",
+      "rarity": "basico",
+      "weightKg": [
+        0.06,
+        0.09
+      ],
+      "habitat": "Bosques y jardines",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Turdus_philomelos"
+    },
+    {
+      "id": 47,
+      "name": "Tordo sargento",
+      "scientificName": "Agelaius phoeniceus",
+      "rarity": "basico",
+      "weightKg": [
+        0.04,
+        0.07
+      ],
+      "habitat": "Humedales y campos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Agelaius_phoeniceus"
+    },
+    {
+      "id": 48,
+      "name": "Ardilla voladora",
+      "scientificName": "Glaucomys volans",
+      "rarity": "basico",
+      "weightKg": [
+        0.05,
+        0.14
+      ],
+      "habitat": "Bosques caducifolios nocturnos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 20,
+        "attack": 4,
+        "defense": 2,
+        "speed": 70
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Glaucomys_volans"
+    },
+    {
+      "id": 49,
+      "name": "Mofeta rayada",
+      "scientificName": "Mephitis mephitis",
+      "rarity": "comun",
+      "weightKg": [
+        1.2,
+        5.5
+      ],
+      "habitat": "Bosques, campos y zonas suburbanas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 21,
+        "attack": 4,
+        "defense": 2,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Mephitis_mephitis"
+    },
+    {
+      "id": 50,
+      "name": "Castor americano",
+      "scientificName": "Castor canadensis",
+      "rarity": "comun",
+      "weightKg": [
+        16,
+        30
+      ],
+      "habitat": "Ríos y estanques",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 26,
+        "attack": 6,
+        "defense": 3,
+        "speed": 62
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Castor_canadensis"
+    },
+    {
+      "id": 51,
+      "name": "Zorro rojo",
+      "scientificName": "Vulpes vulpes",
+      "rarity": "poco_comun",
+      "weightKg": [
+        4,
+        9
+      ],
+      "habitat": "Bosques, campos y zonas periurbanas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 41,
+        "attack": 10,
+        "defense": 6,
+        "speed": 74
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Vulpes_vulpes"
+    },
+    {
+      "id": 52,
+      "name": "Lince rojo",
+      "scientificName": "Lynx rufus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        6,
+        15
+      ],
+      "habitat": "Bosques y matorrales de Norteamérica",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 42,
+        "attack": 10,
+        "defense": 6,
+        "speed": 73
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lynx_rufus"
+    },
+    {
+      "id": 53,
+      "name": "Tejón europeo",
+      "scientificName": "Meles meles",
+      "rarity": "poco_comun",
+      "weightKg": [
+        7,
+        15
+      ],
+      "habitat": "Bosques con madrigueras subterráneas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 42,
+        "attack": 10,
+        "defense": 6,
+        "speed": 73
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Meles_meles"
+    },
+    {
+      "id": 54,
+      "name": "Marta",
+      "scientificName": "Martes martes",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.9,
+        1.8
+      ],
+      "habitat": "Bosques templados",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Martes_martes"
+    },
+    {
+      "id": 55,
+      "name": "Gamo",
+      "scientificName": "Dama dama",
+      "rarity": "poco_comun",
+      "weightKg": [
+        40,
+        100
+      ],
+      "habitat": "Bosques abiertos y parques",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 51,
+        "attack": 13,
+        "defense": 9,
+        "speed": 64
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Dama_dama"
+    },
+    {
+      "id": 56,
+      "name": "Ciervo sika",
+      "scientificName": "Cervus nippon",
+      "rarity": "poco_comun",
+      "weightKg": [
+        30,
+        70
+      ],
+      "habitat": "Bosques templados de Asia",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 48,
+        "attack": 12,
+        "defense": 8,
+        "speed": 67
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cervus_nippon"
+    },
+    {
+      "id": 57,
+      "name": "Venado bura",
+      "scientificName": "Odocoileus hemionus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        55,
+        130
+      ],
+      "habitat": "Montañas y desiertos del oeste americano",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 55,
+        "attack": 14,
+        "defense": 10,
+        "speed": 60
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Odocoileus_hemionus"
+    },
+    {
+      "id": 58,
+      "name": "Oso negro americano",
+      "scientificName": "Ursus americanus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        60,
+        250
+      ],
+      "habitat": "Bosques de Norteamérica",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 65,
+        "attack": 17,
+        "defense": 12,
+        "speed": 50
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ursus_americanus"
+    },
+    {
+      "id": 59,
+      "name": "Pintada común",
+      "scientificName": "Numida meleagris",
+      "rarity": "poco_comun",
+      "weightKg": [
+        1.3,
+        1.8
+      ],
+      "habitat": "Sabanas y matorrales africanos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Numida_meleagris"
+    },
+    {
+      "id": 60,
+      "name": "Garza real",
+      "scientificName": "Ardea cinerea",
+      "rarity": "poco_comun",
+      "weightKg": [
+        1,
+        2
+      ],
+      "habitat": "Humedales y riberas",
+      "diet": "Piscívoro",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ardea_cinerea"
+    },
+    {
+      "id": 61,
+      "name": "Búho chico",
+      "scientificName": "Asio otus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.2,
+        0.4
+      ],
+      "habitat": "Bosques de coníferas",
+      "diet": "Carnívoro nocturno",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Asio_otus"
+    },
+    {
+      "id": 62,
+      "name": "Lechuza común",
+      "scientificName": "Tyto alba",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.2,
+        0.7
+      ],
+      "habitat": "Graneros y campos abiertos",
+      "diet": "Carnívoro nocturno",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tyto_alba"
+    },
+    {
+      "id": 63,
+      "name": "Cárabo europeo",
+      "scientificName": "Strix aluco",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.4,
+        0.8
+      ],
+      "habitat": "Bosques densos nocturnos",
+      "diet": "Carnívoro nocturno",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Strix_aluco"
+    },
+    {
+      "id": 64,
+      "name": "Milano negro",
+      "scientificName": "Milvus migrans",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.6,
+        1.2
+      ],
+      "habitat": "Zonas abiertas cerca del agua",
+      "diet": "Carroñero/carnívoro",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Milvus_migrans"
+    },
+    {
+      "id": 65,
+      "name": "Cernícalo vulgar",
+      "scientificName": "Falco tinnunculus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.15,
+        0.3
+      ],
+      "habitat": "Campos abiertos y acantilados",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Falco_tinnunculus"
+    },
+    {
+      "id": 66,
+      "name": "Pecarí de collar",
+      "scientificName": "Pecari tajacu",
+      "rarity": "poco_comun",
+      "weightKg": [
+        16,
+        30
+      ],
+      "habitat": "Desiertos y bosques tropicales secos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 44,
+        "attack": 11,
+        "defense": 7,
+        "speed": 71
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pecari_tajacu"
+    },
+    {
+      "id": 67,
+      "name": "Corzuela roja",
+      "scientificName": "Mazama americana",
+      "rarity": "poco_comun",
+      "weightKg": [
+        24,
+        48
+      ],
+      "habitat": "Selvas tropicales de Sudamérica",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 46,
+        "attack": 12,
+        "defense": 7,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Mazama_americana"
+    },
+    {
+      "id": 68,
+      "name": "Muflón",
+      "scientificName": "Ovis orientalis musimon",
+      "rarity": "poco_comun",
+      "weightKg": [
+        25,
+        55
+      ],
+      "habitat": "Colinas rocosas y matorrales",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 46,
+        "attack": 12,
+        "defense": 8,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ovis_orientalis_musimon"
+    },
+    {
+      "id": 69,
+      "name": "Cabra montés",
+      "scientificName": "Capra pyrenaica",
+      "rarity": "poco_comun",
+      "weightKg": [
+        30,
+        80
+      ],
+      "habitat": "Montañas rocosas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 49,
+        "attack": 13,
+        "defense": 8,
+        "speed": 66
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Capra_pyrenaica"
+    },
+    {
+      "id": 70,
+      "name": "Ciervo axis",
+      "scientificName": "Axis axis",
+      "rarity": "poco_comun",
+      "weightKg": [
+        30,
+        100
+      ],
+      "habitat": "Bosques abiertos y sabanas de India",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 50,
+        "attack": 13,
+        "defense": 9,
+        "speed": 65
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Axis_axis"
+    },
+    {
+      "id": 71,
+      "name": "Nilgó",
+      "scientificName": "Boselaphus tragocamelus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        120,
+        240
+      ],
+      "habitat": "Sabanas y bosques secos de India",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 69,
+        "attack": 18,
+        "defense": 13,
+        "speed": 46
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Boselaphus_tragocamelus"
+    },
+    {
+      "id": 72,
+      "name": "Gacela de Thomson",
+      "scientificName": "Eudorcas thomsonii",
+      "rarity": "poco_comun",
+      "weightKg": [
+        15,
+        35
+      ],
+      "habitat": "Sabanas africanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 44,
+        "attack": 11,
+        "defense": 7,
+        "speed": 71
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Eudorcas_thomsonii"
+    },
+    {
+      "id": 73,
+      "name": "Facóquero",
+      "scientificName": "Phacochoerus africanus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        50,
+        100
+      ],
+      "habitat": "Sabanas y praderas africanas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 52,
+        "attack": 13,
+        "defense": 9,
+        "speed": 63
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Phacochoerus_africanus"
+    },
+    {
+      "id": 74,
+      "name": "Civeta africana",
+      "scientificName": "Civettictis civetta",
+      "rarity": "poco_comun",
+      "weightKg": [
+        7,
+        20
+      ],
+      "habitat": "Bosques y sabanas africanas",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 42,
+        "attack": 11,
+        "defense": 7,
+        "speed": 73
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Civettictis_civetta"
+    },
+    {
+      "id": 75,
+      "name": "Chacal dorado",
+      "scientificName": "Canis aureus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        6,
+        14
+      ],
+      "habitat": "Sabanas, desiertos y matorrales",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 42,
+        "attack": 10,
+        "defense": 6,
+        "speed": 73
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Canis_aureus"
+    },
+    {
+      "id": 76,
+      "name": "Hiena rayada",
+      "scientificName": "Hyaena hyaena",
+      "rarity": "poco_comun",
+      "weightKg": [
+        25,
+        55
+      ],
+      "habitat": "Sabanas y desiertos",
+      "diet": "Carroñero",
+      "stats": {
+        "hp": 46,
+        "attack": 12,
+        "defense": 8,
+        "speed": 69
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hyaena_hyaena"
+    },
+    {
+      "id": 77,
+      "name": "Serval",
+      "scientificName": "Leptailurus serval",
+      "rarity": "poco_comun",
+      "weightKg": [
+        9,
+        18
+      ],
+      "habitat": "Sabanas y humedales africanos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 42,
+        "attack": 11,
+        "defense": 7,
+        "speed": 73
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Leptailurus_serval"
+    },
+    {
+      "id": 78,
+      "name": "Caracal",
+      "scientificName": "Caracal caracal",
+      "rarity": "poco_comun",
+      "weightKg": [
+        8,
+        19
+      ],
+      "habitat": "Sabanas, desiertos y matorrales",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 42,
+        "attack": 11,
+        "defense": 7,
+        "speed": 73
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Caracal_caracal"
+    },
+    {
+      "id": 79,
+      "name": "Suricata",
+      "scientificName": "Suricata suricatta",
+      "rarity": "poco_comun",
+      "weightKg": [
+        0.6,
+        1
+      ],
+      "habitat": "Desiertos y sabanas del sur de África",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 40,
+        "attack": 10,
+        "defense": 6,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Suricata_suricatta"
+    },
+    {
+      "id": 80,
+      "name": "Avestruz",
+      "scientificName": "Struthio camelus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        90,
+        140
+      ],
+      "habitat": "Sabanas y desiertos africanos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 58,
+        "attack": 15,
+        "defense": 11,
+        "speed": 57
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Struthio_camelus"
+    },
+    {
+      "id": 81,
+      "name": "Emú",
+      "scientificName": "Dromaius novaehollandiae",
+      "rarity": "poco_comun",
+      "weightKg": [
+        30,
+        55
+      ],
+      "habitat": "Praderas y matorrales australianos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 47,
+        "attack": 12,
+        "defense": 8,
+        "speed": 68
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Dromaius_novaehollandiae"
+    },
+    {
+      "id": 82,
+      "name": "Canguro rojo",
+      "scientificName": "Osphranter rufus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        20,
+        90
+      ],
+      "habitat": "Desiertos y praderas australianas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 49,
+        "attack": 13,
+        "defense": 8,
+        "speed": 66
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Osphranter_rufus"
+    },
+    {
+      "id": 83,
+      "name": "Wallaby de Bennett",
+      "scientificName": "Notamacropus rufogriseus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        10,
+        27
+      ],
+      "habitat": "Bosques y matorrales australianos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 43,
+        "attack": 11,
+        "defense": 7,
+        "speed": 72
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Notamacropus_rufogriseus"
+    },
+    {
+      "id": 84,
+      "name": "Puercoespín africano",
+      "scientificName": "Hystrix africaeaustralis",
+      "rarity": "poco_comun",
+      "weightKg": [
+        10,
+        24
+      ],
+      "habitat": "Sabanas y bosques africanos",
+      "diet": "Herb\u00fcr\u00edoro",
+      "stats": {
+        "hp": 43,
+        "attack": 11,
+        "defense": 7,
+        "speed": 72
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hystrix_africaeaustralis"
+    },
+    {
+      "id": 85,
+      "name": "Órix gacela",
+      "scientificName": "Oryx gazella",
+      "rarity": "poco_comun",
+      "weightKg": [
+        100,
+        210
+      ],
+      "habitat": "Desiertos del sur de África",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 65,
+        "attack": 17,
+        "defense": 12,
+        "speed": 50
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Oryx_gazella"
+    },
+    {
+      "id": 86,
+      "name": "Kudú mayor",
+      "scientificName": "Tragelaphus strepsiceros",
+      "rarity": "poco_comun",
+      "weightKg": [
+        120,
+        315
+      ],
+      "habitat": "Sabanas boscosas africanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 75,
+        "attack": 20,
+        "defense": 15,
+        "speed": 40
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tragelaphus_strepsiceros"
+    },
+    {
+      "id": 87,
+      "name": "Impala",
+      "scientificName": "Aepyceros melampus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        40,
+        80
+      ],
+      "habitat": "Sabanas africanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 50,
+        "attack": 13,
+        "defense": 8,
+        "speed": 65
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Aepyceros_melampus"
+    },
+    {
+      "id": 88,
+      "name": "Ñu azul",
+      "scientificName": "Connochaetes taurinus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        140,
+        290
+      ],
+      "habitat": "Sabanas y llanuras africanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 75,
+        "attack": 20,
+        "defense": 15,
+        "speed": 40
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Connochaetes_taurinus"
+    },
+    {
+      "id": 89,
+      "name": "Coatí",
+      "scientificName": "Nasua nasua",
+      "rarity": "poco_comun",
+      "weightKg": [
+        3,
+        6
+      ],
+      "habitat": "Selvas y bosques de Sudamérica",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 41,
+        "attack": 10,
+        "defense": 6,
+        "speed": 74
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Nasua_nasua"
+    },
+    {
+      "id": 90,
+      "name": "Armadillo de nueve bandas",
+      "scientificName": "Dasypus novemcinctus",
+      "rarity": "poco_comun",
+      "weightKg": [
+        2.5,
+        6.5
+      ],
+      "habitat": "Bosques y matorrales de América",
+      "diet": "Insectívoro",
+      "stats": {
+        "hp": 41,
+        "attack": 10,
+        "defense": 6,
+        "speed": 74
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Dasypus_novemcinctus"
+    },
+    {
+      "id": 91,
+      "name": "Lobo gris",
+      "scientificName": "Canis lupus",
+      "rarity": "raro",
+      "weightKg": [
+        30,
+        60
+      ],
+      "habitat": "Bosques y montañas remotas",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 74,
+        "attack": 19,
+        "defense": 15,
+        "speed": 82
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Canis_lupus"
+    },
+    {
+      "id": 92,
+      "name": "Alce",
+      "scientificName": "Alces alces",
+      "rarity": "raro",
+      "weightKg": [
+        380,
+        600
+      ],
+      "habitat": "Bosques boreales y humedales",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 115,
+        "attack": 29,
+        "defense": 23,
+        "speed": 55
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Alces_alces"
+    },
+    {
+      "id": 93,
+      "name": "Lince euroasiático",
+      "scientificName": "Lynx lynx",
+      "rarity": "raro",
+      "weightKg": [
+        18,
+        30
+      ],
+      "habitat": "Bosques densos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 72,
+        "attack": 19,
+        "defense": 14,
+        "speed": 84
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lynx_lynx"
+    },
+    {
+      "id": 94,
+      "name": "Íbice alpino",
+      "scientificName": "Capra ibex",
+      "rarity": "raro",
+      "weightKg": [
+        60,
+        120
+      ],
+      "habitat": "Riscos y montañas altas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 78,
+        "attack": 20,
+        "defense": 16,
+        "speed": 79
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Capra_ibex"
+    },
+    {
+      "id": 95,
+      "name": "Rebeco",
+      "scientificName": "Rupicapra rupicapra",
+      "rarity": "raro",
+      "weightKg": [
+        24,
+        50
+      ],
+      "habitat": "Montañas y acantilados",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 73,
+        "attack": 19,
+        "defense": 15,
+        "speed": 83
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rupicapra_rupicapra"
+    },
+    {
+      "id": 96,
+      "name": "Borrego cimarrón",
+      "scientificName": "Ovis canadensis",
+      "rarity": "raro",
+      "weightKg": [
+        55,
+        140
+      ],
+      "habitat": "Montañas rocosas y desiertos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 79,
+        "attack": 20,
+        "defense": 16,
+        "speed": 79
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ovis_canadensis"
+    },
+    {
+      "id": 97,
+      "name": "Berrendo",
+      "scientificName": "Antilocapra americana",
+      "rarity": "raro",
+      "weightKg": [
+        40,
+        65
+      ],
+      "habitat": "Praderas y desiertos abiertos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 75,
+        "attack": 19,
+        "defense": 15,
+        "speed": 82
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Antilocapra_americana"
+    },
+    {
+      "id": 98,
+      "name": "Wapití",
+      "scientificName": "Cervus canadensis",
+      "rarity": "raro",
+      "weightKg": [
+        180,
+        450
+      ],
+      "habitat": "Bosques y praderas de montaña",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 99,
+        "attack": 25,
+        "defense": 20,
+        "speed": 66
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cervus_canadensis"
+    },
+    {
+      "id": 99,
+      "name": "Reno",
+      "scientificName": "Rangifer tarandus",
+      "rarity": "raro",
+      "weightKg": [
+        80,
+        180
+      ],
+      "habitat": "Tundra ártica",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 82,
+        "attack": 21,
+        "defense": 16,
+        "speed": 77
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rangifer_tarandus"
+    },
+    {
+      "id": 100,
+      "name": "Pavo ocelado",
+      "scientificName": "Meleagris ocellata",
+      "rarity": "raro",
+      "weightKg": [
+        3,
+        5
+      ],
+      "habitat": "Selva de la península de Yucatán",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Meleagris_ocellata"
+    },
+    {
+      "id": 101,
+      "name": "Urogallo",
+      "scientificName": "Tetrao urogallus",
+      "rarity": "raro",
+      "weightKg": [
+        2,
+        5
+      ],
+      "habitat": "Bosques boreales de coníferas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tetrao_urogallus"
+    },
+    {
+      "id": 102,
+      "name": "Lagópodo escocés",
+      "scientificName": "Lagopus lagopus",
+      "rarity": "raro",
+      "weightKg": [
+        0.4,
+        0.8
+      ],
+      "habitat": "Páramos y tundras",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lagopus_lagopus"
+    },
+    {
+      "id": 103,
+      "name": "Hocofaisán",
+      "scientificName": "Crax rubra",
+      "rarity": "raro",
+      "weightKg": [
+        3,
+        4.8
+      ],
+      "habitat": "Selvas tropicales de América Central",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Crax_rubra"
+    },
+    {
+      "id": 104,
+      "name": "Yaguarundí",
+      "scientificName": "Puma yagouaroundi",
+      "rarity": "raro",
+      "weightKg": [
+        3,
+        9
+      ],
+      "habitat": "Selvas y matorrales de América",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Puma_yagouaroundi"
+    },
+    {
+      "id": 105,
+      "name": "Cocodrilo del Nilo",
+      "scientificName": "Crocodylus niloticus",
+      "rarity": "raro",
+      "weightKg": [
+        225,
+        750
+      ],
+      "habitat": "Ríos y lagos africanos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 115,
+        "attack": 28,
+        "defense": 23,
+        "speed": 55
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Crocodylus_niloticus"
+    },
+    {
+      "id": 106,
+      "name": "Oso de anteojos",
+      "scientificName": "Tremarctos ornatus",
+      "rarity": "raro",
+      "weightKg": [
+        70,
+        175
+      ],
+      "habitat": "Bosques nublados andinos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 81,
+        "attack": 21,
+        "defense": 16,
+        "speed": 77
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tremarctos_ornatus"
+    },
+    {
+      "id": 107,
+      "name": "Búfalo cafre",
+      "scientificName": "Syncerus caffer",
+      "rarity": "raro",
+      "weightKg": [
+        400,
+        900
+      ],
+      "habitat": "Sabanas y humedales africanos",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 130,
+        "attack": 32,
+        "defense": 26,
+        "speed": 45
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Syncerus_caffer"
+    },
+    {
+      "id": 108,
+      "name": "Elan del Cabo",
+      "scientificName": "Taurotragus oryx",
+      "rarity": "raro",
+      "weightKg": [
+        300,
+        940
+      ],
+      "habitat": "Sabanas y praderas africanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 127,
+        "attack": 31,
+        "defense": 25,
+        "speed": 47
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Taurotragus_oryx"
+    },
+    {
+      "id": 109,
+      "name": "Addax",
+      "scientificName": "Addax nasomaculatus",
+      "rarity": "raro",
+      "weightKg": [
+        60,
+        125
+      ],
+      "habitat": "Desierto del Sahara",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 78,
+        "attack": 20,
+        "defense": 16,
+        "speed": 79
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Addax_nasomaculatus"
+    },
+    {
+      "id": 110,
+      "name": "Órix de Arabia",
+      "scientificName": "Oryx leucoryx",
+      "rarity": "raro",
+      "weightKg": [
+        65,
+        80
+      ],
+      "habitat": "Desiertos de la península arábiga",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 77,
+        "attack": 20,
+        "defense": 15,
+        "speed": 81
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Oryx_leucoryx"
+    },
+    {
+      "id": 111,
+      "name": "Markhor",
+      "scientificName": "Capra falconeri",
+      "rarity": "raro",
+      "weightKg": [
+        40,
+        110
+      ],
+      "habitat": "Montañas del Himalaya occidental",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 77,
+        "attack": 20,
+        "defense": 15,
+        "speed": 80
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Capra_falconeri"
+    },
+    {
+      "id": 112,
+      "name": "Tahr del Himalaya",
+      "scientificName": "Hemitragus jemlahicus",
+      "rarity": "raro",
+      "weightKg": [
+        50,
+        100
+      ],
+      "habitat": "Riscos del Himalaya",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 77,
+        "attack": 20,
+        "defense": 15,
+        "speed": 80
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hemitragus_jemlahicus"
+    },
+    {
+      "id": 113,
+      "name": "Argali",
+      "scientificName": "Ovis ammon",
+      "rarity": "raro",
+      "weightKg": [
+        65,
+        180
+      ],
+      "habitat": "Montañas de Asia Central",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 81,
+        "attack": 21,
+        "defense": 16,
+        "speed": 77
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ovis_ammon"
+    },
+    {
+      "id": 114,
+      "name": "Cabra de las Rocosas",
+      "scientificName": "Oreamnos americanus",
+      "rarity": "raro",
+      "weightKg": [
+        45,
+        140
+      ],
+      "habitat": "Montañas Rocosas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 78,
+        "attack": 20,
+        "defense": 16,
+        "speed": 79
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Oreamnos_americanus"
+    },
+    {
+      "id": 115,
+      "name": "Antílope saiga",
+      "scientificName": "Saiga tatarica",
+      "rarity": "raro",
+      "weightKg": [
+        25,
+        50
+      ],
+      "habitat": "Estepas de Asia Central",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 73,
+        "attack": 19,
+        "defense": 15,
+        "speed": 83
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Saiga_tatarica"
+    },
+    {
+      "id": 116,
+      "name": "Glotón",
+      "scientificName": "Gulo gulo",
+      "rarity": "raro",
+      "weightKg": [
+        9,
+        25
+      ],
+      "habitat": "Taiga y tundra ártica",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 72,
+        "attack": 18,
+        "defense": 14,
+        "speed": 84
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Gulo_gulo"
+    },
+    {
+      "id": 117,
+      "name": "Lince ibérico",
+      "scientificName": "Lynx pardinus",
+      "rarity": "raro",
+      "weightKg": [
+        9,
+        15
+      ],
+      "habitat": "Matorral mediterráneo",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 71,
+        "attack": 18,
+        "defense": 14,
+        "speed": 84
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lynx_pardinus"
+    },
+    {
+      "id": 118,
+      "name": "Grulla damisela",
+      "scientificName": "Anthropoides virgo",
+      "rarity": "raro",
+      "weightKg": [
+        2,
+        3
+      ],
+      "habitat": "Estepas y humedales de Asia",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Anthropoides_virgo"
+    },
+    {
+      "id": 119,
+      "name": "Avutarda común",
+      "scientificName": "Otis tarda",
+      "rarity": "raro",
+      "weightKg": [
+        3.5,
+        16
+      ],
+      "habitat": "Estepas y campos abiertos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 71,
+        "attack": 18,
+        "defense": 14,
+        "speed": 84
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Otis_tarda"
+    },
+    {
+      "id": 120,
+      "name": "Cárabo lapón",
+      "scientificName": "Strix nebulosa",
+      "rarity": "raro",
+      "weightKg": [
+        0.7,
+        1.9
+      ],
+      "habitat": "Bosques boreales",
+      "diet": "Carnívoro nocturno",
+      "stats": {
+        "hp": 70,
+        "attack": 18,
+        "defense": 14,
+        "speed": 85
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Strix_nebulosa"
+    },
+    {
+      "id": 121,
+      "name": "Dragón",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        800,
+        3000
+      ],
+      "habitat": "Cavernas volcánicas y picos remotos",
+      "diet": "Carnívoro legendario",
+      "stats": {
+        "hp": 176,
+        "attack": 40,
+        "defense": 29,
+        "speed": 87
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Drag%C3%B3n"
+    },
+    {
+      "id": 122,
+      "name": "Unicornio",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        300,
+        500
+      ],
+      "habitat": "Bosques encantados",
+      "diet": "Herbívoro puro",
+      "stats": {
+        "hp": 155,
+        "attack": 36,
+        "defense": 26,
+        "speed": 93
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Unicornio"
+    },
+    {
+      "id": 123,
+      "name": "Fénix",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        5,
+        15
+      ],
+      "habitat": "Nidos en llamas eternas",
+      "diet": "Se alimenta de fuego",
+      "stats": {
+        "hp": 150,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/F%C3%A9nix_%28mitolog%C3%ADa%29"
+    },
+    {
+      "id": 124,
+      "name": "Grifo",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        250,
+        400
+      ],
+      "habitat": "Picos montañosos custodiando tesoros",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 154,
+        "attack": 36,
+        "defense": 26,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Grifo_%28mitolog%C3%ADa%29"
+    },
+    {
+      "id": 125,
+      "name": "Kraken",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        5000,
+        20000
+      ],
+      "habitat": "Abismos oceánicos profundos",
+      "diet": "Carnívoro marino",
+      "stats": {
+        "hp": 320,
+        "attack": 65,
+        "defense": 50,
+        "speed": 40
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Kraken"
+    },
+    {
+      "id": 126,
+      "name": "Yeti",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        150,
+        300
+      ],
+      "habitat": "Picos nevados del Himalaya",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 153,
+        "attack": 36,
+        "defense": 25,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Yeti"
+    },
+    {
+      "id": 127,
+      "name": "Bigfoot",
+      "scientificName": "Criatura críptida",
+      "rarity": "mistico",
+      "weightKg": [
+        140,
+        270
+      ],
+      "habitat": "Bosques densos del noroeste americano",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 153,
+        "attack": 35,
+        "defense": 25,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Bigfoot"
+    },
+    {
+      "id": 128,
+      "name": "Chupacabras",
+      "scientificName": "Criatura críptida",
+      "rarity": "mistico",
+      "weightKg": [
+        10,
+        25
+      ],
+      "habitat": "Zonas rurales de Latinoamérica",
+      "diet": "Carnívoro (según el mito, bebe sangre de ganado)",
+      "stats": {
+        "hp": 150,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Chupacabras"
+    },
+    {
+      "id": 129,
+      "name": "Quetzalcóatl",
+      "scientificName": "Deidad mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        50,
+        120
+      ],
+      "habitat": "Templos y cielos mesoamericanos",
+      "diet": "Desconocido",
+      "stats": {
+        "hp": 151,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Quetzalc%C3%B3atl"
+    },
+    {
+      "id": 130,
+      "name": "Hidra de Lerna",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        400,
+        900
+      ],
+      "habitat": "Pantanos y lagunas ocultas",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 159,
+        "attack": 37,
+        "defense": 26,
+        "speed": 92
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hidra_de_Lerna"
+    },
+    {
+      "id": 131,
+      "name": "Pegaso",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        350,
+        500
+      ],
+      "habitat": "Cumbres celestiales",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 156,
+        "attack": 36,
+        "defense": 26,
+        "speed": 93
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pegaso_%28mitolog%C3%ADa%29"
+    },
+    {
+      "id": 132,
+      "name": "Basilisco",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        15,
+        40
+      ],
+      "habitat": "Cuevas oscuras y ruinas",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 150,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Basilisco_%28mitolog%C3%ADa%29"
+    },
+    {
+      "id": 133,
+      "name": "Cadejo",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        30,
+        60
+      ],
+      "habitat": "Caminos rurales centroamericanos de noche",
+      "diet": "Desconocido",
+      "stats": {
+        "hp": 151,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cadejo"
+    },
+    {
+      "id": 134,
+      "name": "Nahual",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        40,
+        90
+      ],
+      "habitat": "Selvas y pueblos de Mesoamérica",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 151,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Nahual"
+    },
+    {
+      "id": 135,
+      "name": "Hombre polilla (Mothman)",
+      "scientificName": "Criatura críptida",
+      "rarity": "mistico",
+      "weightKg": [
+        70,
+        100
+      ],
+      "habitat": "Zonas industriales abandonadas",
+      "diet": "Desconocido",
+      "stats": {
+        "hp": 151,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hombre_polilla"
+    },
+    {
+      "id": 136,
+      "name": "Monstruo del lago Ness",
+      "scientificName": "Criatura críptida",
+      "rarity": "mistico",
+      "weightKg": [
+        1000,
+        4000
+      ],
+      "habitat": "Lagos profundos escoceses",
+      "diet": "Desconocido",
+      "stats": {
+        "hp": 184,
+        "attack": 41,
+        "defense": 30,
+        "speed": 84
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Monstruo_del_lago_Ness"
+    },
+    {
+      "id": 137,
+      "name": "Pájaro del trueno",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        80,
+        150
+      ],
+      "habitat": "Tormentas y picos altos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 152,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/P%C3%A1jaro_del_trueno"
+    },
+    {
+      "id": 138,
+      "name": "Jackalope",
+      "scientificName": "Criatura folclórica",
+      "rarity": "mistico",
+      "weightKg": [
+        2,
+        5
+      ],
+      "habitat": "Praderas del oeste americano",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 150,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Jackalope"
+    },
+    {
+      "id": 139,
+      "name": "Banshee",
+      "scientificName": "Espíritu mítico",
+      "rarity": "mistico",
+      "weightKg": [
+        1,
+        3
+      ],
+      "habitat": "Ruinas y páramos irlandeses de noche",
+      "diet": "No aplica (entidad espiritual)",
+      "stats": {
+        "hp": 150,
+        "attack": 35,
+        "defense": 25,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Bean_s%C3%ADdhe"
+    },
+    {
+      "id": 140,
+      "name": "Wendigo",
+      "scientificName": "Criatura mítica",
+      "rarity": "mistico",
+      "weightKg": [
+        90,
+        150
+      ],
+      "habitat": "Bosques nevados del norte de América",
+      "diet": "Carnívoro voraz",
+      "stats": {
+        "hp": 152,
+        "attack": 35,
+        "defense": 25,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Wendigo"
+    },
+    {
+      "id": 141,
+      "name": "Oso pardo",
+      "scientificName": "Ursus arctos",
+      "rarity": "legendario",
+      "weightKg": [
+        135,
+        360
+      ],
+      "habitat": "Bosques montañosos remotos",
+      "diet": "Omnívoro",
+      "stats": {
+        "hp": 272,
+        "attack": 57,
+        "defense": 43,
+        "speed": 93
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ursus_arctos"
+    },
+    {
+      "id": 142,
+      "name": "Puma",
+      "scientificName": "Puma concolor",
+      "rarity": "legendario",
+      "weightKg": [
+        45,
+        90
+      ],
+      "habitat": "Montañas, bosques y desiertos",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 263,
+        "attack": 55,
+        "defense": 42,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Puma_concolor"
+    },
+    {
+      "id": 143,
+      "name": "Bisonte americano",
+      "scientificName": "Bison bison",
+      "rarity": "legendario",
+      "weightKg": [
+        400,
+        900
+      ],
+      "habitat": "Praderas y llanuras",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 293,
+        "attack": 59,
+        "defense": 46,
+        "speed": 89
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Bison_bison"
+    },
+    {
+      "id": 144,
+      "name": "Jaguar",
+      "scientificName": "Panthera onca",
+      "rarity": "legendario",
+      "weightKg": [
+        56,
+        96
+      ],
+      "habitat": "Selvas tropicales",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 264,
+        "attack": 55,
+        "defense": 42,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Panthera_onca"
+    },
+    {
+      "id": 145,
+      "name": "Tigre de Bengala",
+      "scientificName": "Panthera tigris tigris",
+      "rarity": "legendario",
+      "weightKg": [
+        140,
+        260
+      ],
+      "habitat": "Selvas y manglares del sur de Asia",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 270,
+        "attack": 56,
+        "defense": 43,
+        "speed": 93
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Panthera_tigris_tigris"
+    },
+    {
+      "id": 146,
+      "name": "León africano",
+      "scientificName": "Panthera leo",
+      "rarity": "legendario",
+      "weightKg": [
+        150,
+        250
+      ],
+      "habitat": "Sabanas africanas",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 270,
+        "attack": 56,
+        "defense": 43,
+        "speed": 93
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Panthera_leo"
+    },
+    {
+      "id": 147,
+      "name": "Elefante africano",
+      "scientificName": "Loxodonta africana",
+      "rarity": "legendario",
+      "weightKg": [
+        2700,
+        6000
+      ],
+      "habitat": "Sabanas y selvas africanas",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 480,
+        "attack": 85,
+        "defense": 68,
+        "speed": 55
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Loxodonta_africana"
+    },
+    {
+      "id": 148,
+      "name": "Rinoceronte blanco",
+      "scientificName": "Ceratotherium simum",
+      "rarity": "legendario",
+      "weightKg": [
+        1800,
+        2500
+      ],
+      "habitat": "Sabanas del sur y este de África",
+      "diet": "Herbívoro",
+      "stats": {
+        "hp": 369,
+        "attack": 70,
+        "defense": 55,
+        "speed": 75
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ceratotherium_simum"
+    },
+    {
+      "id": 149,
+      "name": "Leopardo",
+      "scientificName": "Panthera pardus",
+      "rarity": "legendario",
+      "weightKg": [
+        30,
+        90
+      ],
+      "habitat": "Sabanas, selvas y montañas de África y Asia",
+      "diet": "Carnívoro",
+      "stats": {
+        "hp": 263,
+        "attack": 55,
+        "defense": 42,
+        "speed": 94
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Panthera_pardus"
+    },
+    {
+      "id": 150,
+      "name": "Águila real",
+      "scientificName": "Aquila chrysaetos",
+      "rarity": "legendario",
+      "weightKg": [
+        3,
+        6.5
+      ],
+      "habitat": "Montañas y acantilados remotos",
+      "diet": "Carnívoro (cazador aéreo)",
+      "stats": {
+        "hp": 260,
+        "attack": 55,
+        "defense": 42,
+        "speed": 95
+      },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Aquila_chrysaetos"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Juegos</title>
+  <path d="M16 22h32c7 0 11 5 13 13l2 11c1 6-6 9-10 5L43 42H21L11 51c-5 4-11 1-10-5l2-11c2-8 6-13 13-13Z" transform="translate(1 0)" fill="#171b36" stroke="#b59cff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M18 31v12M12 37h12" stroke="#72ecd4" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="45" cy="34" r="3.5" fill="#72ecd4"/>
+  <circle cx="52" cy="40" r="3.5" fill="#f2b8ff"/>
+</svg>

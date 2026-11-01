@@ -1,0 +1,1663 @@
+{
+  "rarityOrder": [
+    "basico",
+    "comun",
+    "poco_comun",
+    "raro",
+    "mistico",
+    "legendario"
+  ],
+  "minerals": [
+    {
+      "id": 1,
+      "name": "Arcilla",
+      "formula": "Al2Si2O5(OH)4",
+      "rarity": "basico",
+      "hardnessMohs": [1, 2],
+      "depthMeters": [0, 5],
+      "stats": { "durability": 18, "value": 4, "miningTime": 3, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Arcilla"
+    },
+    {
+      "id": 2,
+      "name": "Talco",
+      "formula": "Mg3Si4O10(OH)2",
+      "rarity": "basico",
+      "hardnessMohs": [1, 1],
+      "depthMeters": [0, 8],
+      "stats": { "durability": 15, "value": 3, "miningTime": 2, "xp": 1 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Talco"
+    },
+    {
+      "id": 3,
+      "name": "Yeso",
+      "formula": "CaSO4·2H2O",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 20, "value": 5, "miningTime": 3, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Yeso"
+    },
+    {
+      "id": 4,
+      "name": "Halita (sal de roca)",
+      "formula": "NaCl",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2.5],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 20, "value": 6, "miningTime": 3, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Halita"
+    },
+    {
+      "id": 5,
+      "name": "Mica (moscovita)",
+      "formula": "KAl2(AlSi3O10)(OH)2",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2.5],
+      "depthMeters": [0, 12],
+      "stats": { "durability": 20, "value": 6, "miningTime": 3, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Moscovita"
+    },
+    {
+      "id": 6,
+      "name": "Caliza",
+      "formula": "CaCO3",
+      "rarity": "basico",
+      "hardnessMohs": [3, 3],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 24, "value": 7, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Caliza"
+    },
+    {
+      "id": 7,
+      "name": "Carbón (lignito)",
+      "formula": "C",
+      "rarity": "basico",
+      "hardnessMohs": [1, 2.5],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 22, "value": 8, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lignito"
+    },
+    {
+      "id": 8,
+      "name": "Sílex",
+      "formula": "SiO2",
+      "rarity": "basico",
+      "hardnessMohs": [7, 7],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 28, "value": 9, "miningTime": 5, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/S%C3%ADlex"
+    },
+    {
+      "id": 9,
+      "name": "Feldespato",
+      "formula": "KAlSi3O8",
+      "rarity": "basico",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 26, "value": 8, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Feldespato"
+    },
+    {
+      "id": 10,
+      "name": "Cuarzo lechoso",
+      "formula": "SiO2",
+      "rarity": "basico",
+      "hardnessMohs": [7, 7],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 30, "value": 10, "miningTime": 5, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cuarzo"
+    },
+    {
+      "id": 11,
+      "name": "Azabache",
+      "formula": "C",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 4],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 22, "value": 12, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Azabache"
+    },
+    {
+      "id": 12,
+      "name": "Grauvaca",
+      "formula": "Roca sedimentaria",
+      "rarity": "basico",
+      "hardnessMohs": [3, 4],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 25, "value": 7, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Grauvaca"
+    },
+    {
+      "id": 13,
+      "name": "Pizarra",
+      "formula": "Roca metamórfica",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 4],
+      "depthMeters": [0, 12],
+      "stats": { "durability": 21, "value": 6, "miningTime": 3, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pizarra"
+    },
+    {
+      "id": 14,
+      "name": "Arenisca",
+      "formula": "Roca sedimentaria detrítica",
+      "rarity": "basico",
+      "hardnessMohs": [3, 4.5],
+      "depthMeters": [0, 18],
+      "stats": { "durability": 23, "value": 6, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Arenisca"
+    },
+    {
+      "id": 15,
+      "name": "Silvita",
+      "formula": "KCl",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2],
+      "depthMeters": [0, 22],
+      "stats": { "durability": 19, "value": 8, "miningTime": 3, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Silvita"
+    },
+    {
+      "id": 16,
+      "name": "Carnalita",
+      "formula": "KMgCl3·6H2O",
+      "rarity": "basico",
+      "hardnessMohs": [1, 2],
+      "depthMeters": [0, 25],
+      "stats": { "durability": 16, "value": 7, "miningTime": 3, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Carnalita"
+    },
+    {
+      "id": 17,
+      "name": "Dolomita",
+      "formula": "CaMg(CO3)2",
+      "rarity": "basico",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [0, 16],
+      "stats": { "durability": 25, "value": 8, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Dolomita"
+    },
+    {
+      "id": 18,
+      "name": "Anhidrita",
+      "formula": "CaSO4",
+      "rarity": "basico",
+      "hardnessMohs": [3, 3.5],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 22, "value": 7, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Anhidrita"
+    },
+    {
+      "id": 19,
+      "name": "Alunita",
+      "formula": "KAl3(SO4)2(OH)6",
+      "rarity": "basico",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 23, "value": 9, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Alunita"
+    },
+    {
+      "id": 20,
+      "name": "Baritina",
+      "formula": "BaSO4",
+      "rarity": "basico",
+      "hardnessMohs": [3, 3.5],
+      "depthMeters": [0, 25],
+      "stats": { "durability": 24, "value": 11, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Baritina"
+    },
+    {
+      "id": 21,
+      "name": "Celestina",
+      "formula": "SrSO4",
+      "rarity": "basico",
+      "hardnessMohs": [3, 3.5],
+      "depthMeters": [0, 30],
+      "stats": { "durability": 25, "value": 12, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Celestina"
+    },
+    {
+      "id": 22,
+      "name": "Glauberita",
+      "formula": "Na2Ca(SO4)2",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 20, "value": 9, "miningTime": 3, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Glauberita"
+    },
+    {
+      "id": 23,
+      "name": "Bauxita",
+      "formula": "AlO(OH)",
+      "rarity": "basico",
+      "hardnessMohs": [1, 3],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 22, "value": 10, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Bauxita"
+    },
+    {
+      "id": 24,
+      "name": "Caolinita",
+      "formula": "Al2Si2O5(OH)4",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2.5],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 18, "value": 6, "miningTime": 3, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Caolinita"
+    },
+    {
+      "id": 25,
+      "name": "Serpentina",
+      "formula": "Mg3Si2O5(OH)4",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 4],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 23, "value": 11, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Serpentina"
+    },
+    {
+      "id": 26,
+      "name": "Diatomita",
+      "formula": "SiO2·nH2O",
+      "rarity": "basico",
+      "hardnessMohs": [1, 1.5],
+      "depthMeters": [0, 8],
+      "stats": { "durability": 16, "value": 5, "miningTime": 2, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Diatomita"
+    },
+    {
+      "id": 27,
+      "name": "Travertino",
+      "formula": "CaCO3",
+      "rarity": "basico",
+      "hardnessMohs": [3, 4],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 24, "value": 8, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Travertino"
+    },
+    {
+      "id": 28,
+      "name": "Tezontle",
+      "formula": "Roca volcánica de silicato",
+      "rarity": "basico",
+      "hardnessMohs": [3, 5],
+      "depthMeters": [0, 5],
+      "stats": { "durability": 25, "value": 9, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tezontle"
+    },
+    {
+      "id": 29,
+      "name": "Pumita",
+      "formula": "Roca vítrea piroclástica",
+      "rarity": "basico",
+      "weightKg": [0, 2],
+      "hardnessMohs": [5, 6],
+      "depthMeters": [0, 5],
+      "stats": { "durability": 21, "value": 5, "miningTime": 3, "xp": 2 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pumita"
+    },
+    {
+      "id": 30,
+      "name": "Basalto",
+      "formula": "Roca volcánica básica",
+      "rarity": "basico",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [0, 12],
+      "stats": { "durability": 27, "value": 7, "miningTime": 5, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Basalto"
+    },
+    {
+      "id": 31,
+      "name": "Toba volcánica",
+      "formula": "Roca volcánica compactada",
+      "rarity": "basico",
+      "hardnessMohs": [3.5, 4.5],
+      "depthMeters": [0, 8],
+      "stats": { "durability": 23, "value": 6, "miningTime": 4, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Toba_volc%C3%A1nica"
+    },
+    {
+      "id": 32,
+      "name": "Siderita",
+      "formula": "FeCO3",
+      "rarity": "basico",
+      "hardnessMohs": [3.5, 4.5],
+      "depthMeters": [0, 18],
+      "stats": { "durability": 24, "value": 11, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Siderita"
+    },
+    {
+      "id": 33,
+      "name": "Limonita",
+      "formula": "FeO(OH)·nH2O",
+      "rarity": "basico",
+      "hardnessMohs": [4, 5.5],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 25, "value": 10, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Limonita"
+    },
+    {
+      "id": 34,
+      "name": "Goethita",
+      "formula": "α-Fe3+O(OH)",
+      "rarity": "basico",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 26, "value": 12, "miningTime": 5, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Goethita"
+    },
+    {
+      "id": 35,
+      "name": "Bórax",
+      "formula": "Na2B4O7·10H2O",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2.5],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 18, "value": 14, "miningTime": 3, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/B%C3%B3rax"
+    },
+    {
+      "id": 36,
+      "name": "Criolita",
+      "formula": "Na3AlF6",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [0, 15],
+      "stats": { "durability": 20, "value": 13, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Criolita"
+    },
+    {
+      "id": 37,
+      "name": "Kernita",
+      "formula": "Na2B4O7·4H2O",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [0, 12],
+      "stats": { "durability": 19, "value": 12, "miningTime": 4, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Kernita"
+    },
+    {
+      "id": 38,
+      "name": "Epsomita",
+      "formula": "MgSO4·7H2O",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2.5],
+      "depthMeters": [0, 8],
+      "stats": { "durability": 16, "value": 8, "miningTime": 3, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Epsomita"
+    },
+    {
+      "id": 39,
+      "name": "Nitro",
+      "formula": "KNO3",
+      "rarity": "basico",
+      "hardnessMohs": [2, 2],
+      "depthMeters": [0, 14],
+      "stats": { "durability": 17, "value": 15, "miningTime": 3, "xp": 4 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Nitrato_de_potasio"
+    },
+    {
+      "id": 40,
+      "name": "Thenardita",
+      "formula": "Na2SO4",
+      "rarity": "basico",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 19, "value": 9, "miningTime": 3, "xp": 3 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Thenardita"
+    },
+    {
+      "id": 41,
+      "name": "Cuarzo cristalino",
+      "formula": "SiO2",
+      "rarity": "comun",
+      "hardnessMohs": [7, 7],
+      "depthMeters": [10, 40],
+      "stats": { "durability": 34, "value": 15, "miningTime": 6, "xp": 6 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cuarzo"
+    },
+    {
+      "id": 42,
+      "name": "Calcita",
+      "formula": "CaCO3",
+      "rarity": "comun",
+      "hardnessMohs": [3, 3],
+      "depthMeters": [5, 30],
+      "stats": { "durability": 28, "value": 12, "miningTime": 5, "xp": 5 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Calcita"
+    },
+    {
+      "id": 43,
+      "name": "Pirita",
+      "formula": "FeS2",
+      "rarity": "comun",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [15, 50],
+      "stats": { "durability": 38, "value": 18, "miningTime": 7, "xp": 7 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pirita"
+    },
+    {
+      "id": 44,
+      "name": "Hematita",
+      "formula": "Fe2O3",
+      "rarity": "comun",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [10, 40],
+      "stats": { "durability": 36, "value": 17, "miningTime": 6, "xp": 7 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hematita"
+    },
+    {
+      "id": 45,
+      "name": "Magnetita",
+      "formula": "Fe3O4",
+      "rarity": "comun",
+      "hardnessMohs": [5.5, 6.5],
+      "depthMeters": [15, 50],
+      "stats": { "durability": 38, "value": 19, "miningTime": 7, "xp": 7 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Magnetita"
+    },
+    {
+      "id": 46,
+      "name": "Galena",
+      "formula": "PbS",
+      "rarity": "comun",
+      "hardnessMohs": [2.5, 2.5],
+      "depthMeters": [20, 60],
+      "stats": { "durability": 30, "value": 20, "miningTime": 6, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Galena_(mineral)"
+    },
+    {
+      "id": 47,
+      "name": "Esfalerita",
+      "formula": "ZnS",
+      "rarity": "comun",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [20, 60],
+      "stats": { "durability": 32, "value": 20, "miningTime": 6, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Esfalerita"
+    },
+    {
+      "id": 48,
+      "name": "Fluorita",
+      "formula": "CaF2",
+      "rarity": "comun",
+      "hardnessMohs": [4, 4],
+      "depthMeters": [15, 50],
+      "stats": { "durability": 34, "value": 22, "miningTime": 7, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Fluorita"
+    },
+    {
+      "id": 49,
+      "name": "Apatito",
+      "formula": "Ca5(PO4)3(OH,F,Cl)",
+      "rarity": "comun",
+      "hardnessMohs": [5, 5],
+      "depthMeters": [15, 45],
+      "stats": { "durability": 35, "value": 24, "miningTime": 7, "xp": 9 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Apatito"
+    },
+    {
+      "id": 50,
+      "name": "Grafito",
+      "formula": "C",
+      "rarity": "comun",
+      "hardnessMohs": [1, 2],
+      "depthMeters": [10, 40],
+      "stats": { "durability": 26, "value": 16, "miningTime": 5, "xp": 6 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Grafito"
+    },
+    {
+      "id": 51,
+      "name": "Azufre",
+      "formula": "S",
+      "rarity": "comun",
+      "hardnessMohs": [1.5, 2.5],
+      "depthMeters": [5, 30],
+      "stats": { "durability": 24, "value": 14, "miningTime": 5, "xp": 6 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Azufre"
+    },
+    {
+      "id": 52,
+      "name": "Malaquita",
+      "formula": "Cu2CO3(OH)2",
+      "rarity": "comun",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [20, 55],
+      "stats": { "durability": 34, "value": 28, "miningTime": 8, "xp": 10 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Malaquita"
+    },
+    {
+      "id": 53,
+      "name": "Turquesa",
+      "formula": "CuAl6(PO4)4(OH)8·4H2O",
+      "rarity": "comun",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [20, 60],
+      "stats": { "durability": 36, "value": 32, "miningTime": 8, "xp": 11 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Turquesa_(mineral)"
+    },
+    {
+      "id": 54,
+      "name": "Obsidiana",
+      "formula": "SiO2 (vidrio volcánico)",
+      "rarity": "comun",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [0, 20],
+      "stats": { "durability": 32, "value": 20, "miningTime": 6, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Obsidiana"
+    },
+    {
+      "id": 55,
+      "name": "Cobre nativo",
+      "formula": "Cu",
+      "rarity": "comun",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [25, 65],
+      "stats": { "durability": 33, "value": 35, "miningTime": 8, "xp": 12 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cobre"
+    },
+    {
+      "id": 56,
+      "name": "Calcopirita",
+      "formula": "CuFeS2",
+      "rarity": "comun",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [20, 60],
+      "stats": { "durability": 33, "value": 26, "miningTime": 7, "xp": 9 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Calcopirita"
+    },
+    {
+      "id": 57,
+      "name": "Casiterita",
+      "formula": "SnO2",
+      "rarity": "comun",
+      "hardnessMohs": [6, 7],
+      "depthMeters": [25, 60],
+      "stats": { "durability": 39, "value": 32, "miningTime": 8, "xp": 11 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Casiterita"
+    },
+    {
+      "id": 58,
+      "name": "Cromita",
+      "formula": "FeCr2O4",
+      "rarity": "comun",
+      "hardnessMohs": [5.5, 5.5],
+      "depthMeters": [30, 70],
+      "stats": { "durability": 37, "value": 30, "miningTime": 8, "xp": 10 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cromita"
+    },
+    {
+      "id": 59,
+      "name": "Pirolusita",
+      "formula": "MnO2",
+      "rarity": "comun",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [15, 45],
+      "stats": { "durability": 35, "value": 22, "miningTime": 7, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pirolusita"
+    },
+    {
+      "id": 60,
+      "name": "Estibina",
+      "formula": "Sb2S3",
+      "rarity": "comun",
+      "hardnessMohs": [2, 2],
+      "depthMeters": [25, 65],
+      "stats": { "durability": 28, "value": 24, "miningTime": 6, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Estibina"
+    },
+    {
+      "id": 61,
+      "name": "Oropimente",
+      "formula": "As2S3",
+      "rarity": "comun",
+      "hardnessMohs": [1.5, 2],
+      "depthMeters": [10, 40],
+      "stats": { "durability": 25, "value": 18, "miningTime": 5, "xp": 7 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Oropimente"
+    },
+    {
+      "id": 62,
+      "name": "Cinabrio",
+      "formula": "HgS",
+      "rarity": "comun",
+      "hardnessMohs": [2, 2.5],
+      "depthMeters": [20, 50],
+      "stats": { "durability": 29, "value": 31, "miningTime": 6, "xp": 10 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cinabrio"
+    },
+    {
+      "id": 63,
+      "name": "Gibbsita",
+      "formula": "Al(OH)3",
+      "rarity": "comun",
+      "hardnessMohs": [2.5, 3.5],
+      "depthMeters": [5, 35],
+      "stats": { "durability": 30, "value": 16, "miningTime": 6, "xp": 6 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Gibbsita"
+    },
+    {
+      "id": 64,
+      "name": "Cerusita",
+      "formula": "PbCO3",
+      "rarity": "comun",
+      "hardnessMohs": [3, 3.5],
+      "depthMeters": [25, 60],
+      "stats": { "durability": 31, "value": 23, "miningTime": 6, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cerusita"
+    },
+    {
+      "id": 65,
+      "name": "Anglesita",
+      "formula": "PbSO4",
+      "rarity": "comun",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [25, 55],
+      "stats": { "durability": 30, "value": 21, "miningTime": 6, "xp": 8 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Anglesita"
+    },
+    {
+      "id": 66,
+      "name": "Smithsonita",
+      "formula": "ZnCO3",
+      "rarity": "comun",
+      "hardnessMohs": [4, 4.5],
+      "depthMeters": [20, 50],
+      "stats": { "durability": 33, "value": 25, "miningTime": 7, "xp": 9 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Smithsonita"
+    },
+    {
+      "id": 67,
+      "name": "Wulfenita",
+      "formula": "PbMoO4",
+      "rarity": "comun",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [30, 70],
+      "stats": { "durability": 32, "value": 36, "miningTime": 8, "xp": 12 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Wulfenita"
+    },
+    {
+      "id": 68,
+      "name": "Scheelita",
+      "formula": "CaWO4",
+      "rarity": "comun",
+      "hardnessMohs": [4.5, 5],
+      "depthMeters": [35, 75],
+      "stats": { "durability": 36, "value": 40, "miningTime": 8, "xp": 13 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Scheelita"
+    },
+    {
+      "id": 69,
+      "name": "Wolframita",
+      "formula": "(Fe,Mn)WO4",
+      "rarity": "comun",
+      "hardnessMohs": [4, 4.5],
+      "depthMeters": [35, 80],
+      "stats": { "durability": 35, "value": 38, "miningTime": 8, "xp": 13 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Wolframita"
+    },
+    {
+      "id": 70,
+      "name": "Ilmenita",
+      "formula": "FeTiO3",
+      "rarity": "comun",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [20, 50],
+      "stats": { "durability": 36, "value": 27, "miningTime": 7, "xp": 9 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Ilmenita"
+    },
+    {
+      "id": 71,
+      "name": "Rutilo",
+      "formula": "TiO2",
+      "rarity": "comun",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [30, 75],
+      "stats": { "durability": 38, "value": 35, "miningTime": 8, "xp": 11 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rutilo"
+    },
+    {
+      "id": 72,
+      "name": "Monacita",
+      "formula": "(Ce,La,Nd,Th)PO4",
+      "rarity": "comun",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [40, 85],
+      "stats": { "durability": 37, "value": 45, "miningTime": 9, "xp": 14 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Monacita"
+    },
+    {
+      "id": 73,
+      "name": "Uraninita",
+      "formula": "UO2",
+      "rarity": "comun",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [50, 100],
+      "stats": { "durability": 38, "value": 50, "miningTime": 10, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Uraninita"
+    },
+    {
+      "id": 74,
+      "name": "Torianita",
+      "formula": "ThO2",
+      "rarity": "comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [50, 95],
+      "stats": { "durability": 39, "value": 48, "miningTime": 9, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Torianita"
+    },
+    {
+      "id": 75,
+      "name": "Vanadinita",
+      "formula": "Pb5(VO4)3Cl",
+      "rarity": "comun",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [20, 50],
+      "stats": { "durability": 31, "value": 33, "miningTime": 7, "xp": 10 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Vanadinita"
+    },
+    {
+      "id": 76,
+      "name": "Azurita",
+      "formula": "Cu3(CO3)2(OH)2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [30, 70],
+      "stats": { "durability": 52, "value": 55, "miningTime": 11, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Azurita"
+    },
+    {
+      "id": 77,
+      "name": "Granate",
+      "formula": "X3Y2(SiO4)3",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7.5],
+      "depthMeters": [35, 80],
+      "stats": { "durability": 60, "value": 60, "miningTime": 12, "xp": 16 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Granate_(mineral)"
+    },
+    {
+      "id": 78,
+      "name": "Topacio",
+      "formula": "Al2SiO4(F,OH)2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [8, 8],
+      "depthMeters": [40, 90],
+      "stats": { "durability": 68, "value": 90, "miningTime": 14, "xp": 20 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Topacio"
+    },
+    {
+      "id": 79,
+      "name": "Amatista",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [7, 7],
+      "depthMeters": [30, 75],
+      "stats": { "durability": 58, "value": 70, "miningTime": 12, "xp": 17 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Amatista"
+    },
+    {
+      "id": 80,
+      "name": "Citrino",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [7, 7],
+      "depthMeters": [30, 75],
+      "stats": { "durability": 56, "value": 65, "miningTime": 12, "xp": 16 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Citrino"
+    },
+    {
+      "id": 81,
+      "name": "Ópalo",
+      "formula": "SiO2·nH2O",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5.5, 6.5],
+      "depthMeters": [35, 85],
+      "stats": { "durability": 54, "value": 85, "miningTime": 13, "xp": 19 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/%C3%93palo"
+    },
+    {
+      "id": 82,
+      "name": "Jade (jadeíta)",
+      "formula": "NaAlSi2O6",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [40, 90],
+      "stats": { "durability": 62, "value": 95, "miningTime": 14, "xp": 21 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Jade%C3%ADta"
+    },
+    {
+      "id": 83,
+      "name": "Lapislázuli",
+      "formula": "Roca (lazurita, calcita, pirita)",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [35, 80],
+      "stats": { "durability": 55, "value": 80, "miningTime": 13, "xp": 18 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lapisl%C3%A1zuli"
+    },
+    {
+      "id": 84,
+      "name": "Rodocrosita",
+      "formula": "MnCO3",
+      "rarity": "poco_comun",
+      "hardnessMohs": [3.5, 4],
+      "depthMeters": [35, 80],
+      "stats": { "durability": 50, "value": 75, "miningTime": 12, "xp": 17 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rodocrosita"
+    },
+    {
+      "id": 35,
+      "name": "Peridoto",
+      "formula": "(Mg,Fe)2SiO4",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [40, 85],
+      "stats": { "durability": 58, "value": 88, "miningTime": 13, "xp": 19 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Peridoto"
+    },
+    {
+      "id": 86,
+      "name": "Plata nativa",
+      "formula": "Ag",
+      "rarity": "poco_comun",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [40, 90],
+      "stats": { "durability": 54, "value": 100, "miningTime": 14, "xp": 22 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Plata"
+    },
+    {
+      "id": 87,
+      "name": "Corindón",
+      "formula": "Al2O3",
+      "rarity": "poco_comun",
+      "hardnessMohs": [9, 9],
+      "depthMeters": [45, 95],
+      "stats": { "durability": 70, "value": 92, "miningTime": 15, "xp": 21 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Corind%C3%B3n"
+    },
+    {
+      "id": 88,
+      "name": "Crisocola",
+      "formula": "(Cu,Al)2H2Si2O5(OH)4·nH2O",
+      "rarity": "poco_comun",
+      "hardnessMohs": [2.5, 4],
+      "depthMeters": [20, 50],
+      "stats": { "durability": 48, "value": 52, "miningTime": 10, "xp": 14 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Crisocola"
+    },
+    {
+      "id": 89,
+      "name": "Hemimorfita",
+      "formula": "Zn4Si2O7(OH)2·H2O",
+      "rarity": "poco_comun",
+      "hardnessMohs": [4.5, 5],
+      "depthMeters": [25, 60],
+      "stats": { "durability": 51, "value": 58, "miningTime": 11, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hemimorfita"
+    },
+    {
+      "id": 90,
+      "name": "Jaspe",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [15, 55],
+      "stats": { "durability": 55, "value": 48, "miningTime": 11, "xp": 13 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Jaspe"
+    },
+    {
+      "id": 91,
+      "name": "Ágata",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [15, 60],
+      "stats": { "durability": 56, "value": 50, "miningTime": 11, "xp": 14 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/%C3%81gata"
+    },
+    {
+      "id": 92,
+      "name": "Ónix",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [20, 65],
+      "stats": { "durability": 57, "value": 62, "miningTime": 12, "xp": 16 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/%C3%93nix"
+    },
+    {
+      "id": 93,
+      "name": "Cornalina",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [10, 50],
+      "stats": { "durability": 54, "value": 46, "miningTime": 11, "xp": 13 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Cornalina"
+    },
+    {
+      "id": 94,
+      "name": "Calcedonia",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [15, 50],
+      "stats": { "durability": 55, "value": 44, "miningTime": 11, "xp": 12 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Calcedonia"
+    },
+    {
+      "id": 95,
+      "name": "Heliotropo",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [20, 55],
+      "stats": { "durability": 56, "value": 54, "miningTime": 11, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Heliotropo"
+    },
+    {
+      "id": 96,
+      "name": "Aventurina",
+      "formula": "SiO2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [15, 60],
+      "stats": { "durability": 55, "value": 48, "miningTime": 11, "xp": 13 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Aventurina"
+    },
+    {
+      "id": 97,
+      "name": "Obsidiana copo de nieve",
+      "formula": "SiO2 (con cristales de cristobalita)",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [5, 35],
+      "stats": { "durability": 50, "value": 42, "miningTime": 10, "xp": 12 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Obsidiana"
+    },
+    {
+      "id": 98,
+      "name": "Prehnita",
+      "formula": "Ca2Al(AlSi3O10)(OH)2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [30, 75],
+      "stats": { "durability": 53, "value": 68, "miningTime": 12, "xp": 17 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Prehnita"
+    },
+    {
+      "id": 99,
+      "name": "Diópsido",
+      "formula": "CaMgSi2O6",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5.5, 6.5],
+      "depthMeters": [35, 80],
+      "stats": { "durability": 54, "value": 72, "miningTime": 12, "xp": 18 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Di%C3%B3psido"
+    },
+    {
+      "id": 100,
+      "name": "Espodumena",
+      "formula": "LiAlSi2O6",
+      "rarity": "poco_comun",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [40, 85],
+      "stats": { "durability": 58, "value": 78, "miningTime": 13, "xp": 19 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Espodumena"
+    },
+    {
+      "id": 101,
+      "name": "Tremolita",
+      "formula": "Ca2Mg5Si8O22(OH)2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [25, 70],
+      "stats": { "durability": 52, "value": 56, "miningTime": 11, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tremolita"
+    },
+    {
+      "id": 102,
+      "name": "Actinolita",
+      "formula": "Ca2(Mg,Fe)5Si8O22(OH)2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [25, 75],
+      "stats": { "durability": 53, "value": 58, "miningTime": 11, "xp": 15 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Actinolita"
+    },
+    {
+      "id": 103,
+      "name": "Wollastonita",
+      "formula": "CaSiO3",
+      "rarity": "poco_comun",
+      "hardnessMohs": [4.5, 5],
+      "depthMeters": [20, 60],
+      "stats": { "durability": 49, "value": 50, "miningTime": 10, "xp": 13 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Wollastonita"
+    },
+    {
+      "id": 104,
+      "name": "Sodalita",
+      "formula": "Na8(Al6Si6O24)Cl2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5.5, 6],
+      "depthMeters": [30, 75],
+      "stats": { "durability": 54, "value": 76, "miningTime": 12, "xp": 18 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sodalita"
+    },
+    {
+      "id": 105,
+      "name": "Lazurita",
+      "formula": "(Na,Ca)8(Al6Si6O24)(S,SO4,Cl)1-2",
+      "rarity": "poco_comun",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [35, 80],
+      "stats": { "durability": 53, "value": 82, "miningTime": 12, "xp": 19 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lazurita"
+    },
+    {
+      "id": 106,
+      "name": "Esmeralda",
+      "formula": "Be3Al2(SiO3)6",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [60, 120],
+      "stats": { "durability": 95, "value": 250, "miningTime": 22, "xp": 35 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Esmeralda"
+    },
+    {
+      "id": 107,
+      "name": "Aguamarina",
+      "formula": "Be3Al2(SiO3)6",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [55, 110],
+      "stats": { "durability": 90, "value": 200, "miningTime": 20, "xp": 32 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Aguamarina_(gema)"
+    },
+    {
+      "id": 108,
+      "name": "Zafiro",
+      "formula": "Al2O3",
+      "rarity": "raro",
+      "hardnessMohs": [9, 9],
+      "depthMeters": [65, 130],
+      "stats": { "durability": 105, "value": 260, "miningTime": 23, "xp": 38 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Zafiro"
+    },
+    {
+      "id": 109,
+      "name": "Rubí",
+      "formula": "Al2O3",
+      "rarity": "raro",
+      "hardnessMohs": [9, 9],
+      "depthMeters": [65, 130],
+      "stats": { "durability": 105, "value": 270, "miningTime": 23, "xp": 38 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rub%C3%AD"
+    },
+    {
+      "id": 110,
+      "name": "Turmalina",
+      "formula": "Borosilicato complejo de aluminio",
+      "rarity": "raro",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [55, 110],
+      "stats": { "durability": 88, "value": 180, "miningTime": 20, "xp": 30 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Turmalina"
+    },
+    {
+      "id": 111,
+      "name": "Kunzita",
+      "formula": "LiAl(SiO3)2",
+      "rarity": "raro",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [55, 105],
+      "stats": { "durability": 85, "value": 170, "miningTime": 19, "xp": 29 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Kunzita"
+    },
+    {
+      "id": 112,
+      "name": "Espinela",
+      "formula": "MgAl2O4",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [60, 115],
+      "stats": { "durability": 92, "value": 190, "miningTime": 21, "xp": 31 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Espinela"
+    },
+    {
+      "id": 113,
+      "name": "Oro nativo",
+      "formula": "Au",
+      "rarity": "raro",
+      "hardnessMohs": [2.5, 3],
+      "depthMeters": [70, 140],
+      "stats": { "durability": 80, "value": 300, "miningTime": 24, "xp": 40 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Oro"
+    },
+    {
+      "id": 114,
+      "name": "Platino nativo",
+      "formula": "Pt",
+      "rarity": "raro",
+      "hardnessMohs": [4, 4.5],
+      "depthMeters": [75, 145],
+      "stats": { "durability": 100, "value": 320, "miningTime": 25, "xp": 42 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Platino"
+    },
+    {
+      "id": 115,
+      "name": "Circón",
+      "formula": "ZrSiO4",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 7.5],
+      "depthMeters": [60, 115],
+      "stats": { "durability": 90, "value": 175, "miningTime": 20, "xp": 30 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Circ%C3%B3n"
+    },
+    {
+      "id": 116,
+      "name": "Heliodoro",
+      "formula": "Be3Al2Si6O18",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [65, 120],
+      "stats": { "durability": 91, "value": 185, "miningTime": 21, "xp": 31 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Heliodoro_(gema)"
+    },
+    {
+      "id": 117,
+      "name": "Goshenita",
+      "formula": "Be3Al2Si6O18 (incoloro)",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [60, 115],
+      "stats": { "durability": 89, "value": 165, "miningTime": 20, "xp": 28 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Goshenita"
+    },
+    {
+      "id": 118,
+      "name": "Euclasa",
+      "formula": "BeAlSiO4(OH)",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 7.5],
+      "depthMeters": [70, 130],
+      "stats": { "durability": 93, "value": 240, "miningTime": 23, "xp": 36 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Euclasa"
+    },
+    {
+      "id": 119,
+      "name": "Fenaquita",
+      "formula": "Be2SiO4",
+      "rarity": "raro",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [65, 125],
+      "stats": { "durability": 92, "value": 220, "miningTime": 22, "xp": 34 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Fenaquita"
+    },
+    {
+      "id": 120,
+      "name": "Escapolita",
+      "formula": "Silicato complejo de Al, Ca y Na",
+      "rarity": "raro",
+      "hardnessMohs": [5.5, 6],
+      "depthMeters": [50, 100],
+      "stats": { "durability": 83, "value": 150, "miningTime": 18, "xp": 26 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Escapolita"
+    },
+    {
+      "id": 121,
+      "name": "Crisoberilo",
+      "formula": "BeAl2O4",
+      "rarity": "raro",
+      "hardnessMohs": [8.5, 8.5],
+      "depthMeters": [70, 135],
+      "stats": { "durability": 100, "value": 245, "miningTime": 24, "xp": 37 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Crisoberilo"
+    },
+    {
+      "id": 122,
+      "name": "Dioptasa",
+      "formula": "CuSiO3·H2O",
+      "rarity": "raro",
+      "hardnessMohs": [5, 5],
+      "depthMeters": [45, 95],
+      "stats": { "durability": 80, "value": 160, "miningTime": 17, "xp": 27 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Dioptasa"
+    },
+    {
+      "id": 123,
+      "name": "Benitoíta",
+      "formula": "BaTiSi3O9",
+      "rarity": "raro",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [65, 120],
+      "stats": { "durability": 88, "value": 230, "miningTime": 21, "xp": 35 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Benito%C3%ADta"
+    },
+    {
+      "id": 124,
+      "name": "Neptunita",
+      "formula": "KNa2Li(Fe,Mn)2Ti2Si8O24",
+      "rarity": "raro",
+      "hardnessMohs": [5.5, 6],
+      "depthMeters": [60, 115],
+      "stats": { "durability": 86, "value": 210, "miningTime": 20, "xp": 32 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Neptunita"
+    },
+    {
+      "id": 125,
+      "name": "Estaurolita",
+      "formula": "Fe2Al9O6(SiO4)4(O,OH)2",
+      "rarity": "raro",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [50, 105],
+      "stats": { "durability": 87, "value": 155, "miningTime": 19, "xp": 28 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Estaurolita"
+    },
+    {
+      "id": 126,
+      "name": "Vesubianita",
+      "formula": "Silicato complejo de Ca, Al y Mg",
+      "rarity": "raro",
+      "hardnessMohs": [6.5, 6.5],
+      "depthMeters": [55, 110],
+      "stats": { "durability": 85, "value": 160, "miningTime": 19, "xp": 29 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Vesubianita"
+    },
+    {
+      "id": 127,
+      "name": "Axinita",
+      "formula": "Borosilicato complejo de Ca y Mn",
+      "rarity": "raro",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [50, 100],
+      "stats": { "durability": 86, "value": 168, "miningTime": 20, "xp": 30 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Axinita"
+    },
+    {
+      "id": 128,
+      "name": "Danburita",
+      "formula": "CaB2(SiO4)2",
+      "rarity": "raro",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [60, 115],
+      "stats": { "durability": 90, "value": 180, "miningTime": 21, "xp": 31 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Danburita"
+    },
+    {
+      "id": 129,
+      "name": "Esfena",
+      "formula": "CaTiSiO5",
+      "rarity": "raro",
+      "hardnessMohs": [5, 5.5],
+      "depthMeters": [45, 95],
+      "stats": { "durability": 82, "value": 150, "miningTime": 18, "xp": 26 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Titanita"
+    },
+    {
+      "id": 130,
+      "name": "Andalucita",
+      "formula": "Al2SiO5",
+      "rarity": "raro",
+      "hardnessMohs": [6.5, 7.5],
+      "depthMeters": [50, 105],
+      "stats": { "durability": 87, "value": 162, "miningTime": 20, "xp": 29 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Andalucita"
+    },
+    {
+      "id": 131,
+      "name": "Diamante",
+      "formula": "C",
+      "rarity": "mistico",
+      "hardnessMohs": [10, 10],
+      "depthMeters": [100, 200],
+      "stats": { "durability": 180, "value": 800, "miningTime": 40, "xp": 70 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Diamante"
+    },
+    {
+      "id": 132,
+      "name": "Alejandrita",
+      "formula": "BeAl2O4",
+      "rarity": "mistico",
+      "hardnessMohs": [8.5, 8.5],
+      "depthMeters": [95, 190],
+      "stats": { "durability": 175, "value": 750, "miningTime": 38, "xp": 68 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Alejandrita"
+    },
+    {
+      "id": 133,
+      "name": "Tanzanita",
+      "formula": "Ca2Al3(SiO4)(Si2O7)O(OH)",
+      "rarity": "mistico",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [85, 170],
+      "stats": { "durability": 150, "value": 600, "miningTime": 35, "xp": 60 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Tanzanita"
+    },
+    {
+      "id": 134,
+      "name": "Ópalo negro de fuego",
+      "formula": "SiO2·nH2O (variedad preciosa oscura)",
+      "rarity": "mistico",
+      "hardnessMohs": [5.5, 6.5],
+      "depthMeters": [90, 175],
+      "stats": { "durability": 155, "value": 650, "miningTime": 36, "xp": 62 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/%C3%93palo_negro"
+    },
+    {
+      "id": 135,
+      "name": "Morganita",
+      "formula": "Be3Al2(SiO3)6",
+      "rarity": "mistico",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [85, 170],
+      "stats": { "durability": 160, "value": 620, "miningTime": 35, "xp": 61 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Morganita"
+    },
+    {
+      "id": 136,
+      "name": "Bixbita",
+      "formula": "Be3Al2(SiO3)6 (berilo rojo)",
+      "rarity": "mistico",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [95, 190],
+      "stats": { "durability": 170, "value": 780, "miningTime": 39, "xp": 69 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Berilo_rojo"
+    },
+    {
+      "id": 137,
+      "name": "Larimar",
+      "formula": "NaCa2Si3O8(OH)",
+      "rarity": "mistico",
+      "hardnessMohs": [4.5, 5],
+      "depthMeters": [80, 160],
+      "stats": { "durability": 145, "value": 580, "miningTime": 34, "xp": 58 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Larimar"
+    },
+    {
+      "id": 138,
+      "name": "Labradorita",
+      "formula": "(Ca,Na)(Al,Si)4O8",
+      "rarity": "mistico",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [85, 165],
+      "stats": { "durability": 148, "value": 590, "miningTime": 34, "xp": 59 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Labradorita"
+    },
+    {
+      "id": 139,
+      "name": "Moldavita",
+      "formula": "Vidrio de impacto de sílice natural",
+      "rarity": "mistico",
+      "hardnessMohs": [5.5, 6],
+      "depthMeters": [0, 5],
+      "stats": { "durability": 135, "value": 550, "miningTime": 30, "xp": 55 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Moldavita"
+    },
+    {
+      "id": 140,
+      "name": "Sugilita",
+      "formula": "KNa2(Fe,Mn,Al)2Li3Si12O30",
+      "rarity": "mistico",
+      "hardnessMohs": [6, 6.5],
+      "depthMeters": [85, 160],
+      "stats": { "durability": 147, "value": 610, "miningTime": 34, "xp": 60 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Sugilita"
+    },
+    {
+      "id": 141,
+      "name": "Charoíta",
+      "formula": "K(Ca,Na)2Si4O10(OH,F)·H2O",
+      "rarity": "mistico",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [80, 155],
+      "stats": { "durability": 142, "value": 560, "miningTime": 33, "xp": 57 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Charo%C3%ADta"
+    },
+    {
+      "id": 142,
+      "name": "Pezzottaíta",
+      "formula": "Cs(Be2Li)Al2Si6O18",
+      "rarity": "mistico",
+      "hardnessMohs": [8, 8],
+      "depthMeters": [95, 185],
+      "stats": { "durability": 168, "value": 720, "miningTime": 38, "xp": 66 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Pezzotta%C3%ADta"
+    },
+    {
+      "id": 143,
+      "name": "Jeremejevita",
+      "formula": "Al6B5O15(F,OH)3",
+      "rarity": "mistico",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [90, 180],
+      "stats": { "durability": 162, "value": 700, "miningTime": 37, "xp": 64 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Jeremejevita"
+    },
+    {
+      "id": 144,
+      "name": "Serendibita",
+      "formula": "Silicato complejo de Ca, Mg, Al y B",
+      "rarity": "mistico",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [95, 190],
+      "stats": { "durability": 165, "value": 740, "miningTime": 38, "xp": 67 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Serendibita"
+    },
+    {
+      "id": 145,
+      "name": "Rodizita",
+      "formula": "KBe4Al4(B11Be)O28",
+      "rarity": "mistico",
+      "hardnessMohs": [8, 8],
+      "depthMeters": [90, 185],
+      "stats": { "durability": 166, "value": 710, "miningTime": 38, "xp": 65 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Rodizita"
+    },
+    {
+      "id": 146,
+      "name": "Chambersita",
+      "formula": "Mn3B7O13Cl",
+      "rarity": "mistico",
+      "hardnessMohs": [7, 7],
+      "depthMeters": [80, 160],
+      "stats": { "durability": 150, "value": 630, "miningTime": 35, "xp": 59 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Chambersita"
+    },
+    {
+      "id": 147,
+      "name": "Boracita",
+      "formula": "Mg3B7O13Cl",
+      "rarity": "mistico",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [80, 165],
+      "stats": { "durability": 152, "value": 640, "miningTime": 35, "xp": 60 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Boracita"
+    },
+    {
+      "id": 148,
+      "name": "Hilgardita",
+      "formula": "Ca2B5O9Cl·H2O",
+      "rarity": "mistico",
+      "hardnessMohs": [5, 5],
+      "depthMeters": [75, 150],
+      "stats": { "durability": 140, "value": 550, "miningTime": 32, "xp": 55 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Hilgardita"
+    },
+    {
+      "id": 149,
+      "name": "Johachidolita",
+      "formula": "CaAlB3O7",
+      "rarity": "mistico",
+      "hardnessMohs": [6.5, 7.5],
+      "depthMeters": [85, 175],
+      "stats": { "durability": 158, "value": 680, "miningTime": 36, "xp": 63 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Johachidolita"
+    },
+    {
+      "id": 150,
+      "name": "Londonita",
+      "formula": "(Cs,K,Rb)Al4Be4(B11Be)O28",
+      "rarity": "mistico",
+      "hardnessMohs": [8, 8],
+      "depthMeters": [90, 180],
+      "stats": { "durability": 164, "value": 730, "miningTime": 37, "xp": 65 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Londonita"
+    },
+    {
+      "id": 151,
+      "name": "Painita",
+      "formula": "CaZrAl9O15(BO3)",
+      "rarity": "legendario",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [150, 300],
+      "stats": { "durability": 320, "value": 2500, "miningTime": 70, "xp": 180 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Painita"
+    },
+    {
+      "id": 152,
+      "name": "Musgravita",
+      "formula": "(Mg,Fe,Zn)2(Al,Fe)4BeO10",
+      "rarity": "legendario",
+      "hardnessMohs": [8, 8.5],
+      "depthMeters": [150, 300],
+      "stats": { "durability": 330, "value": 2600, "miningTime": 72, "xp": 185 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Musgravita"
+    },
+    {
+      "id": 153,
+      "name": "Taaffeíta",
+      "formula": "Mg3Al8BeO16",
+      "rarity": "legendario",
+      "hardnessMohs": [8, 8.5],
+      "depthMeters": [150, 290],
+      "stats": { "durability": 325, "value": 2400, "miningTime": 70, "xp": 178 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Taaffeita"
+    },
+    {
+      "id": 154,
+      "name": "Poudretteíta",
+      "formula": "KNa2B3Si12O30",
+      "rarity": "legendario",
+      "hardnessMohs": [5, 6.5],
+      "depthMeters": [140, 280],
+      "stats": { "durability": 300, "value": 2200, "miningTime": 65, "xp": 165 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Poudretteite"
+    },
+    {
+      "id": 155,
+      "name": "Grandidierita",
+      "formula": "(Mg,Fe)Al3(BO3)(SiO4)O2",
+      "rarity": "legendario",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [145, 290],
+      "stats": { "durability": 310, "value": 2300, "miningTime": 68, "xp": 172 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Grandidierita"
+    },
+    {
+      "id": 156,
+      "name": "Jadeíta imperial",
+      "formula": "NaAlSi2O6 (variedad translúcida)",
+      "rarity": "legendario",
+      "hardnessMohs": [6.5, 7],
+      "depthMeters": [130, 260],
+      "stats": { "durability": 280, "value": 2000, "miningTime": 62, "xp": 155 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Jade%C3%ADta"
+    },
+    {
+      "id": 157,
+      "name": "Diamante azul (tipo IIb)",
+      "formula": "C (con trazas de boro)",
+      "rarity": "legendario",
+      "hardnessMohs": [10, 10],
+      "depthMeters": [180, 350],
+      "stats": { "durability": 400, "value": 3000, "miningTime": 85, "xp": 250 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Diamante"
+    },
+    {
+      "id": 158,
+      "name": "Meteorito ferroso",
+      "formula": "Fe-Ni",
+      "rarity": "legendario",
+      "hardnessMohs": [5, 6],
+      "depthMeters": [0, 5],
+      "stats": { "durability": 350, "value": 2800, "miningTime": 80, "xp": 230 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Meteorito_de_hierro"
+    },
+    {
+      "id": 159,
+      "name": "Diamante rojo",
+      "formula": "C (con deformación plástica)",
+      "rarity": "legendario",
+      "hardnessMohs": [10, 10],
+      "depthMeters": [180, 360],
+      "stats": { "durability": 410, "value": 3200, "miningTime": 88, "xp": 270 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Diamante"
+    },
+    {
+      "id": 160,
+      "name": "Cobalto-espinela",
+      "formula": "CoAl2O4",
+      "rarity": "legendario",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [140, 270],
+      "stats": { "durability": 312, "value": 2100, "miningTime": 66, "xp": 168 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Espinela"
+    },
+    {
+      "id": 161,
+      "name": "Jeremejevita cristalina",
+      "formula": "Al6B5O15(F,OH)3 (azul puro)",
+      "rarity": "legendario",
+      "hardnessMohs": [7, 7.5],
+      "depthMeters": [142, 280],
+      "stats": { "durability": 305, "value": 2050, "miningTime": 64, "xp": 164 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Jeremejevita"
+    },
+    {
+      "id": 162,
+      "name": "Painita facetada",
+      "formula": "CaZrAl9O15(BO3) (calidad gema)",
+      "rarity": "legendario",
+      "hardnessMohs": [7.5, 8],
+      "depthMeters": [152, 305],
+      "stats": { "durability": 322, "value": 2550, "miningTime": 71, "xp": 182 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Painita"
+    },
+    {
+      "id": 163,
+      "name": "Lonsdaleíta de impacto",
+      "formula": "C (estructura hexagonal)",
+      "rarity": "legendario",
+      "hardnessMohs": [10, 10],
+      "depthMeters": [0, 10],
+      "stats": { "durability": 450, "value": 3500, "miningTime": 90, "xp": 300 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Lonsdale%C3%ADta"
+    },
+    {
+      "id": 164,
+      "name": "Amolita gema",
+      "formula": "Aragonito de concha de amonita",
+      "rarity": "legendario",
+      "hardnessMohs": [4.5, 5.5],
+      "depthMeters": [80, 160],
+      "stats": { "durability": 270, "value": 1850, "miningTime": 58, "xp": 140 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Amolita"
+    },
+    {
+      "id": 165,
+      "name": "Palasita de olivino",
+      "formula": "Fe-Ni con cristales de silicato",
+      "rarity": "legendario",
+      "hardnessMohs": [6, 7],
+      "depthMeters": [0, 5],
+      "stats": { "durability": 345, "value": 2900, "miningTime": 82, "xp": 240 },
+      "photoUrl": "https://es.wikipedia.org/api/rest_v1/page/summary/Palasita"
+    }
+  ]
+}

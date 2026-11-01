@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env-example
+ZenSessions/
+tmp/
+lib/database/sqlite/*.sqlite*
+lib/database/sqlite/*.db
+coverage/
+*.log
+.DS_Store

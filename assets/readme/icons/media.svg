@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Multimedia</title>
+  <rect x="8" y="11" width="48" height="42" rx="10" fill="#102a35" stroke="#72ecd4" stroke-width="3"/>
+  <circle cx="21" cy="24" r="4" fill="#b59cff"/>
+  <path d="m13 46 13-13 8 8 7-7 10 12" fill="none" stroke="#e7eaff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m30 28 11 6-11 6z" fill="#72ecd4" stroke="#102a35" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
