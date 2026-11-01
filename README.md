@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Bot de WhatsApp de <strong>Axelix09</strong>, construido sobre <a href="https://github.com/Axelix09/zyrix">Zyrix</a>.
+  Bot de WhatsApp, construido sobre <a href="https://github.com/Axelix09/zyrix">Zyrix</a>.
 </p>
 
 <p align="center">
