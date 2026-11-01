@@ -53,14 +53,6 @@ Sirve cualquier terminal de Linux, macOS, Windows, Termux en Android o la consol
 - El almacenamiento cubre `node_modules`, la carpeta `tmp/`, la base de datos y la sesión de WhatsApp.
 - Cada subbot necesita memoria extra: ZenBot no levanta uno si hay menos de **250 MB de RAM libre**.
 
-## ☁️ Instalación recomendada: Akirax Host
-
-La forma más cómoda de tener ZenBot encendido sin depender de tu celular o tu PC es un hosting. Te recomendamos **[Akirax Host](https://home.akirax.net)**:
-
-1. Entrá a [home.akirax.net](https://home.akirax.net) y creá una cuenta con **Create Account**.
-2. Creá tu servidor desde el panel y revisá que el plan cubra los requisitos de RAM y almacenamiento de arriba.
-3. Subí o cloná ZenBot siguiendo la instalación de abajo y ejecutá `npm start`.
-
 ## 🚀 Instalación
 
 ```bash
@@ -93,6 +85,11 @@ Se puede correr ZenBot desde Android con Termux, pero tiene limitaciones:
 - Dependés de la conexión del celular: si cambia de red o se queda sin datos, el bot se cae.
 
 Si necesitás que funcione 24/7, un hosting como Akirax Host es mejor opción que Termux.
+
+1. Entrá a [home.akirax.net](https://home.akirax.net) y creá una cuenta con **Create Account**.
+2. Creá tu servidor desde el panel y revisá que el plan cubra los requisitos de RAM y almacenamiento de arriba.
+3. Subí o cloná ZenBot siguiendo la instalación de abajo y ejecutá `npm start`.
+
 
 ## ⚙️ Configuración
 
