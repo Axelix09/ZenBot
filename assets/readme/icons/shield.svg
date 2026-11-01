@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title">
-  <title id="title">Moderación y seguridad</title>
-  <defs><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7de5d0"/><stop offset="1" stop-color="#aa91ee"/></linearGradient></defs>
-  <rect x="3" y="3" width="66" height="66" rx="19" fill="#171c2c" stroke="#30384d" stroke-width="1.5"/>
-  <path d="M36 12 54 20v14c0 12-7 20-18 26-11-6-18-14-18-26V20z" fill="#222a40" stroke="url(#stroke)" stroke-width="2.7" stroke-linejoin="round"/>
-  <path d="m27 35 6 6 13-14" fill="none" stroke="#7de5d0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="53" cy="18" r="2.5" fill="#aa91ee"/>
-</svg>

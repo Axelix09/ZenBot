@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title">
-  <title id="title">Multimedia</title>
-  <defs><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7de5d0"/><stop offset="1" stop-color="#aa91ee"/></linearGradient></defs>
-  <rect x="3" y="3" width="66" height="66" rx="19" fill="#171c2c" stroke="#30384d" stroke-width="1.5"/>
-  <rect x="13" y="14" width="46" height="44" rx="9" fill="#222a40" stroke="url(#stroke)" stroke-width="2.7"/>
-  <circle cx="25" cy="26" r="4" fill="#aa91ee"/>
-  <path d="m17 50 11-11 7 7 6-6 12 12" fill="none" stroke="#edf0f7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="m34 29 12 7-12 7z" fill="#7de5d0" stroke="#222a40" stroke-width="1.5" stroke-linejoin="round"/>
-</svg>

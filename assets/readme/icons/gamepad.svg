@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title">
-  <title id="title">Juegos</title>
-  <defs><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7de5d0"/><stop offset="1" stop-color="#aa91ee"/></linearGradient></defs>
-  <rect x="3" y="3" width="66" height="66" rx="19" fill="#171c2c" stroke="#30384d" stroke-width="1.5"/>
-  <path d="M20 23h32c7 0 11 5 13 13l2 10c1 6-6 9-11 5L44 42H28L16 51c-5 4-12 1-11-5l2-10c2-8 6-13 13-13z" fill="#222a40" stroke="url(#stroke)" stroke-width="2.7" stroke-linejoin="round"/>
-  <path d="M21 30v13M14.5 36.5h13" stroke="#edf0f7" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="47" cy="32" r="3" fill="#7de5d0"/>
-  <circle cx="54" cy="39" r="3" fill="#aa91ee"/>
-</svg>
