@@ -35,7 +35,7 @@ ZenBot junta en un solo bot comandos para grupos, juegos, economía, multimedia 
 Para que ZenBot se ejecute necesitás una **terminal** (o cualquier entorno que te deje correr comandos) con soporte para lo siguiente:
 
 - **Node.js 20 o superior** y **npm**.
-- **Git**: una dependencia (`zyrix`) se descarga directamente desde GitHub.
+- **Git**: una dependencia (`zyrix`) se descarga directamente desde GitHub o NPM.
 - **FFmpeg**: lo usan las conversiones, stickers animados, audios y varias descargas.
 - Una cuenta de WhatsApp para vincular el bot.
 - Opcional: Chromium, solo para las tarjetas con render HTML (si no está, ZenBot usa una tarjeta SVG automáticamente).
