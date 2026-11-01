@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="t">
+  <title id="t">Grupos y comunidad</title>
+  <defs>
+    <linearGradient id="tgcom" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#27427f"/><stop offset="1" stop-color="#0b1330"/></linearGradient>
+    <linearGradient id="tecom" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5b7bc4"/><stop offset="1" stop-color="#1b2d5f"/></linearGradient>
+    <radialGradient id="glcom" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#82c7a0" stop-opacity=".26"/><stop offset="1" stop-color="#82c7a0" stop-opacity="0"/></radialGradient>
+    <pattern id="sgcom" width="24" height="12" patternUnits="userSpaceOnUse"><g fill="none" stroke="#f6f1e6" stroke-opacity="0.1" stroke-width="1"><circle cx="12.0" cy="12" r="12"/><circle cx="12.0" cy="12" r="9.0"/><circle cx="12.0" cy="12" r="6.0"/><circle cx="12.0" cy="12" r="3.0"/><circle cx="0" cy="6.0" r="12"/><circle cx="0" cy="6.0" r="9.0"/><circle cx="0" cy="6.0" r="6.0"/><circle cx="0" cy="6.0" r="3.0"/><circle cx="24" cy="6.0" r="12"/><circle cx="24" cy="6.0" r="9.0"/><circle cx="24" cy="6.0" r="6.0"/><circle cx="24" cy="6.0" r="3.0"/></g></pattern>
+    <filter id="gfcom" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <clipPath id="clcom"><rect x="2" y="2" width="68" height="68" rx="18"/></clipPath>
+  </defs>
+  <rect x="2" y="4" width="68" height="68" rx="18" fill="#000" opacity=".35"/>
+  <rect x="2" y="2" width="68" height="68" rx="18" fill="url(#tgcom)" stroke="url(#tecom)" stroke-width="2"/>
+  <g clip-path="url(#clcom)">
+    <rect x="2" y="2" width="68" height="68" fill="url(#sgcom)"/>
+    <rect x="2" y="2" width="68" height="68" fill="url(#glcom)"/>
+    <path d="M2 20C20 12 52 12 70 20V2H2z" fill="#fff" opacity=".07"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <circle cx="19" cy="31" r="5.200" stroke="#82c7a0" fill="#82c7a0" fill-opacity=".28"/>
+    <path d="M9 54c0-8 4-12 10-12 3 0 5 1 7 3" fill="none" stroke="#82c7a0"/>
+    <circle cx="53" cy="31" r="5.200" stroke="#82c7a0" fill="#82c7a0" fill-opacity=".28"/>
+    <path d="M63 54c0-8-4-12-10-12-3 0-5 1-7 3" fill="none" stroke="#82c7a0"/>
+    <circle cx="36" cy="26" r="7.500" stroke="#f6f1e6" fill="#f6f1e6" fill-opacity=".14"/>
+    <path d="M22 56c0-11 6-18 14-18s14 7 14 18z" stroke="#f6f1e6" fill="#f6f1e6" fill-opacity=".14"/>
+  </g>
+  <path d="M60 8 Q61.12 10.879999999999999 64 12 Q61.12 13.120000000000001 60 16 Q58.88 13.120000000000001 56 12 Q58.88 10.879999999999999 60 8Z" fill="#e04a32" opacity="1"/>
+</svg>
