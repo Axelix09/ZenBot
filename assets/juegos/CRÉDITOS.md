@@ -1,0 +1,1 @@
+Créditos al que hizo el sticker xdd
