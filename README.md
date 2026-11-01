@@ -12,13 +12,6 @@
   <a href="https://luxinfinity.vercel.app/"><img src="assets/readme/buttons/api.svg" width="256" height="55" alt="API gratuita"></a>
 </p>
 
-<p align="center">
-  <img src="assets/readme/cards/grupos.svg" width="160" height="176" alt="Grupos: comandos para tu comunidad">
-  <img src="assets/readme/cards/juegos.svg" width="160" height="176" alt="Juegos: economía, rankings y rachas">
-  <img src="assets/readme/cards/multimedia.svg" width="160" height="176" alt="Multimedia: descargas y conversiones">
-  <img src="assets/readme/cards/datos.svg" width="160" height="176" alt="Datos: SQLite o MongoDB">
-  <img src="assets/readme/cards/moderacion.svg" width="160" height="176" alt="Moderación: herramientas para admins">
-</p>
 
 ZenBot junta en un solo bot comandos para grupos, juegos, economía, multimedia y otras utilidades. El menú que aparece en cada chat depende de la configuración de esa instalación: escribí **`.menu`** para verlo.
 
