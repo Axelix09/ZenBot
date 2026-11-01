@@ -1,5 +1,3 @@
-# ZenBot
-
 <p align="center">
   <img src="assets/readme/zenbot-banner.svg" alt="ZenBot" width="100%">
 </p>
@@ -105,7 +103,7 @@ Si necesitás que funcione 24/7, un hosting como Akirax Host es mejor opción qu
 
 ## ⚙️ Configuración
 
-Los datos de cada instalación se editan en `zen.config.js`. Los campos de propietario y cuenta del bot vienen vacíos a propósito:
+Los datos de cada instalación se editan en `zen.config.js`
 
 ```js
 ownerNumbers: [],
@@ -144,10 +142,6 @@ Si MongoDB no conecta, el adaptador puede continuar con SQLite. Revisá qué mot
 - El comando `.get` admite URLs públicas, valida redirecciones y limita las descargas multimedia a 100 MiB.
 
 El `.gitignore` excluye `.env`, sesiones, temporales y bases SQLite para ayudar a evitar subidas accidentales.
-
-## 🧪 Pruebas
-
-`npm test` usa el ejecutor de pruebas de Node. Por ahora el proyecto todavía no tiene una suite automatizada, así que ese comando no comprueba el funcionamiento completo del bot.
 
 ## 📄 Licencia
 
