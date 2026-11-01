@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title">
   <title id="title">Multimedia</title>
-  <rect x="8" y="11" width="48" height="42" rx="10" fill="#102a35" stroke="#72ecd4" stroke-width="3"/>
-  <circle cx="21" cy="24" r="4" fill="#b59cff"/>
-  <path d="m13 46 13-13 8 8 7-7 10 12" fill="none" stroke="#e7eaff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="m30 28 11 6-11 6z" fill="#72ecd4" stroke="#102a35" stroke-width="1.5" stroke-linejoin="round"/>
+  <defs><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7de5d0"/><stop offset="1" stop-color="#aa91ee"/></linearGradient></defs>
+  <rect x="3" y="3" width="66" height="66" rx="19" fill="#171c2c" stroke="#30384d" stroke-width="1.5"/>
+  <rect x="13" y="14" width="46" height="44" rx="9" fill="#222a40" stroke="url(#stroke)" stroke-width="2.7"/>
+  <circle cx="25" cy="26" r="4" fill="#aa91ee"/>
+  <path d="m17 50 11-11 7 7 6-6 12 12" fill="none" stroke="#edf0f7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m34 29 12 7-12 7z" fill="#7de5d0" stroke="#222a40" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>

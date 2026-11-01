@@ -1,68 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
-  <title id="title">ZenBot — el bot que le pone vida al grupo</title>
-  <desc id="desc">Banner oscuro con acentos violeta y turquesa, un pequeño robot y el nombre ZenBot.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">ZenBot</title>
+  <desc id="desc">Banner de ZenBot con un símbolo original de chat y robot en tonos noche, turquesa y violeta.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#101426"/>
-      <stop offset="0.55" stop-color="#171a35"/>
-      <stop offset="1" stop-color="#102d3a"/>
+      <stop stop-color="#111522"/>
+      <stop offset="1" stop-color="#20243a"/>
     </linearGradient>
-    <linearGradient id="bot" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#86f7de"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+    <linearGradient id="trim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7de5d0"/>
+      <stop offset="1" stop-color="#aa91ee"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#73f0d4"/>
-      <stop offset="1" stop-color="#b6a0ff"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#b8c7ff" stroke-opacity=".055" stroke-width="1"/>
+    <pattern id="grain" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".8" fill="#dfe3f3" opacity=".16"/>
     </pattern>
   </defs>
-  <rect width="1280" height="390" rx="34" fill="url(#bg)"/>
-  <rect width="1280" height="390" rx="34" fill="url(#grid)"/>
-  <circle cx="1080" cy="170" r="190" fill="#7c3aed" opacity=".10"/>
-  <circle cx="1080" cy="170" r="130" fill="#2dd4bf" opacity=".08"/>
-  <path d="M0 322C180 282 282 374 468 328s255-52 356-11" fill="none" stroke="#7dded7" stroke-opacity=".12" stroke-width="2"/>
-  <path d="M0 344C174 304 294 392 474 346s255-52 356-11" fill="none" stroke="#b6a0ff" stroke-opacity=".10" stroke-width="2"/>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grain)" opacity=".45"/>
+  <path d="M0 269c186-33 302 21 483-8 183-29 306-47 449-13" fill="none" stroke="#7de5d0" stroke-opacity=".11" stroke-width="1.5"/>
+  <path d="M0 292c188-32 304 21 486-8 181-29 303-47 447-13" fill="none" stroke="#aa91ee" stroke-opacity=".1" stroke-width="1.5"/>
 
-  <g fill="#9ff6df">
-    <path d="M744 70l5 14 14 5-14 5-5 14-5-14-14-5 14-5z" opacity=".9"/>
-    <path d="M822 263l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" opacity=".7"/>
-    <circle cx="782" cy="145" r="3" opacity=".7"/>
-    <circle cx="832" cy="103" r="2" opacity=".6"/>
-    <circle cx="1185" cy="270" r="3" opacity=".7"/>
-  </g>
-  <g fill="#c4b5fd">
-    <circle cx="900" cy="67" r="3" opacity=".7"/>
-    <circle cx="1190" cy="91" r="2" opacity=".8"/>
-    <path d="M1164 190l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" opacity=".7"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" transform="translate(74 65)">
+    <circle cx="5" cy="3" r="4" fill="#7de5d0"/>
+    <text x="19" y="8" fill="#abb2c7" font-size="12" font-weight="700" letter-spacing="2.2">AXELIX09 · WHATSAPP BOT</text>
+    <text x="0" y="106" fill="#f2f3f8" font-size="77" font-weight="750" letter-spacing="-3">ZenBot</text>
+    <path d="M2 129h94" stroke="url(#trim)" stroke-width="4" stroke-linecap="round"/>
+    <text x="2" y="174" fill="#d5d8e4" font-size="20">Grupos, juegos y utilidades sobre Zyrix.</text>
+    <text x="2" y="216" fill="#929bb2" font-size="14" letter-spacing=".35">Node.js · WhatsApp multidispositivo · SQLite / MongoDB</text>
   </g>
 
-  <g transform="translate(78 87)">
-    <rect x="0" y="0" width="62" height="8" rx="4" fill="url(#accent)"/>
-    <text x="0" y="102" fill="#f6f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="4">ZENBOT</text>
-    <text x="4" y="150" fill="#8ff3dc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3">EL CHAT COBRA VIDA</text>
-    <text x="4" y="202" fill="#d3d7ee" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Juegos · comunidad · multimedia · buena onda</text>
-    <g transform="translate(4 235)">
-      <rect x="0" y="0" width="210" height="36" rx="18" fill="#ffffff" fill-opacity=".07" stroke="#b8c7ff" stroke-opacity=".18"/>
-      <circle cx="20" cy="18" r="5" fill="#78efd5"/>
-      <text x="36" y="24" fill="#e4e7f6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="1">POWERED BY ZYRIX</text>
-    </g>
-  </g>
-
-  <g transform="translate(896 68)">
-    <ellipse cx="143" cy="260" rx="116" ry="18" fill="#050817" opacity=".35"/>
-    <path d="M143 19v31" stroke="#8ff3dc" stroke-width="7" stroke-linecap="round"/>
-    <circle cx="143" cy="13" r="11" fill="#b6a0ff"/>
-    <path d="M35 104c0-20 16-36 36-36h144c20 0 36 16 36 36v91c0 20-16 36-36 36H71c-20 0-36-16-36-36z" fill="url(#bot)"/>
-    <path d="M35 130H22c-12 0-22 10-22 22v22c0 12 10 22 22 22h13M251 130h13c12 0 22 10 22 22v22c0 12-10 22-22 22h-13" fill="none" stroke="#9af5e3" stroke-width="10" stroke-linecap="round"/>
-    <rect x="59" y="94" width="168" height="112" rx="30" fill="#12182e"/>
-    <circle cx="108" cy="143" r="11" fill="#8ff3dc"/>
-    <circle cx="178" cy="143" r="11" fill="#c4b5fd"/>
-    <path d="M112 174c17 16 45 16 62 0" fill="none" stroke="#f2f4ff" stroke-width="7" stroke-linecap="round"/>
-    <path d="M84 231v19M202 231v19" stroke="#8ff3dc" stroke-width="9" stroke-linecap="round"/>
-    <path d="M59 251h168" stroke="#a78bfa" stroke-width="8" stroke-linecap="round" opacity=".85"/>
-    <circle cx="143" cy="251" r="7" fill="#f6f7ff"/>
+  <g transform="translate(860 48)">
+    <circle cx="145" cy="111" r="111" fill="#8b77d8" opacity=".055"/>
+    <circle cx="145" cy="111" r="83" fill="none" stroke="#a99ae8" stroke-opacity=".17" stroke-width="1.5"/>
+    <path d="M145 16v21" stroke="#7de5d0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="145" cy="12" r="6" fill="#aa91ee"/>
+    <path d="M59 78a29 29 0 0 1 29-29h114a29 29 0 0 1 29 29v69a29 29 0 0 1-29 29h-64l-34 27v-27h-16a29 29 0 0 1-29-29z" fill="#171c2d" stroke="url(#trim)" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M78 88a17 17 0 0 1 17-17h101a17 17 0 0 1 17 17v39a17 17 0 0 1-17 17H95a17 17 0 0 1-17-17z" fill="#222a40"/>
+    <circle cx="119" cy="106" r="7" fill="#7de5d0"/>
+    <circle cx="172" cy="106" r="7" fill="#b39be9"/>
+    <path d="M121 126c14 11 34 11 48 0" fill="none" stroke="#eceef5" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M45 96h13M236 96h13" stroke="#7de5d0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="34" cy="208" r="3" fill="#7de5d0"/>
+    <path d="m250 41 3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#b39be9"/>
+    <circle cx="274" cy="190" r="2.5" fill="#9aa4bc"/>
   </g>
 </svg>

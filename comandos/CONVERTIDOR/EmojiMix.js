@@ -74,19 +74,8 @@ async function runEmojimix(ctx, e1, e2, userName) {
 }
 
 async function runEmojimix2(ctx, e1, e2) {
-  const apiKey = process.env.TENOR_API_KEY?.trim();
-  if (!apiKey) throw new Error('faltaApiTenor');
-
-  const url = new URL('https://tenor.googleapis.com/v2/featured');
-  url.searchParams.set('key', apiKey);
-  url.searchParams.set('contentfilter', 'high');
-  url.searchParams.set('media_filter', 'png_transparent');
-  url.searchParams.set('component', 'proactive');
-  url.searchParams.set('collection', 'emoji_kitchen_v5');
-  url.searchParams.set('q', `${e1}_${e2}`);
-
-  const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
-  if (!res.ok) throw new Error('tenorError');
+  const url = `https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(e1)}_${encodeURIComponent(e2)}`;
+  const res = await fetch(url);
   const json = await res.json();
   if (!json.results?.length) throw new Error('noExiste');
   for (const r of json.results) {
@@ -161,13 +150,6 @@ export default new ZenCommand('emojimix')
       await ctx.react('✅');
 
     } catch (e) {
-      if (e.message === 'faltaApiTenor') {
-        await ctx.react('⚠️');
-        return ctx.reply(
-          `『 ⚙️ 』 *SERVICIO NO CONFIGURADO*\n\n` +
-          `> El administrador debe agregar \`TENOR_API_KEY\` a su archivo \`.env\`.`
-        );
-      }
       if (e.message === 'noExiste') {
         await ctx.react('⚠️');
         return ctx.reply(

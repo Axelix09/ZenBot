@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Comunidad</title>
-  <path d="M11 14h31a8 8 0 0 1 8 8v15a8 8 0 0 1-8 8H28L16 54v-9h-5a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8Z" fill="#102a35" stroke="#72ecd4" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M19 26h20M19 34h13" fill="none" stroke="#e7eaff" stroke-width="3" stroke-linecap="round"/>
-  <path d="M44 49h4l9 7v-9a7 7 0 0 0 4-6v-6" fill="none" stroke="#b59cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="49" cy="18" r="3" fill="#b59cff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title">
+  <title id="title">Grupos y comunidad</title>
+  <defs><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7de5d0"/><stop offset="1" stop-color="#aa91ee"/></linearGradient></defs>
+  <rect x="3" y="3" width="66" height="66" rx="19" fill="#171c2c" stroke="#30384d" stroke-width="1.5"/>
+  <path d="M15 19h31a8 8 0 0 1 8 8v14a8 8 0 0 1-8 8H30l-11 8v-8h-4a8 8 0 0 1-8-8V27a8 8 0 0 1 8-8z" fill="#222a40" stroke="url(#stroke)" stroke-width="2.7" stroke-linejoin="round"/>
+  <path d="M18 30h24M18 38h15" stroke="#edf0f7" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M48 50h5l8 6v-8a7 7 0 0 0 4-6" fill="none" stroke="#aa91ee" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="55" cy="21" r="2.5" fill="#7de5d0"/>
 </svg>

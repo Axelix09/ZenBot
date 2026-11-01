@@ -12,8 +12,8 @@ export const ZenConfig = {
   botName: 'ZenBot',
   ownerName: 'Axelix09',
   ownerInstagram: 'axelix09',
-  ownerNumbers: String(process.env.OWNER_NUMBERS || '').split(',').map((number) => number.replace(/\D/g, '')).filter(Boolean),
-  botPhoneNumber: String(process.env.BOT_PHONE_NUMBER || '').replace(/\D/g, ''),
+  ownerNumbers: [], // Configurá acá los números autorizados.
+  botPhoneNumber: '', // Vacío para pedir el número al iniciar.
   publicBotMode: true,
   newsletterJid: '120363403631501323@newsletter',
   newsletterName: 'Canal ZenBot ✦',
