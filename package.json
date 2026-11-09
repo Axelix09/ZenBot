@@ -1,7 +1,7 @@
 {
   "name": "zenbot",
   "version": "11.1.0",
-  "description": "Botsito humilde",
+  "description": "Bot de WhatsApp multi-dispositivo con juegos, economia, descargas y comandos de grupo, construido sobre zyrix",
   "type": "module",
   "main": "zen.js",
   "author": {
@@ -24,7 +24,13 @@
     "zen",
     "md",
     "axelix09",
-    "Axeldev09"
+    "Axeldev09",
+    "baileys",
+    "termux",
+    "bot-games",
+    "economy-bot",
+    "downloader",
+    "stickers"
   ],
   "engines": {
     "node": ">=20.0.0"
